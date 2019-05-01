@@ -1,0 +1,48 @@
+/*CSS Styles*/
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#side-bar {
+  height: 70%;
+  width: 10%;
+  z-index: 3;
+  position: absolute;
+  background-color: white;
+  margin-top:8%;
+  border-style: round;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 10px;
+}
+
+#side-bar ul{
+  font-size: 10px;
+  font-family: calibri, century, serif;
+  text-align: center;
+}
+
+#side-bar li{
+  display:inline-block;
+}
+
+#side-bar img{
+  width: 20px;
+}
+
+#side-bar h3{
+  padding: 2px;
+  margin: 0px auto;
+  background-color: #aaa;
+  color: white;
+}
