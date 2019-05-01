@@ -40,9 +40,19 @@ html, body {
   width: 20px;
 }
 
-#side-bar h3{
-  padding: 2px;
+#side-bar h2{
+  font-size: 13px;
+  border-top-right-radius: 20px;
+  padding: 3px;
   margin: 0px auto;
-  background-color: #aaa;
+  background-color: #bbb;
+  color: white;
+}
+
+#side-bar h3{
+  font-size: 13px;
+  padding: 3px;
+  margin: 0px auto;
+  background-color: #bbb;
   color: white;
 }
