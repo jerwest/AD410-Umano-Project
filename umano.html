@@ -4,54 +4,50 @@
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-      * element that contains the map. */
-      #map {
-        height: 100%;
-        float: right;
-        width: 80%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+
+    <link href="css/styles.css"	type="text/css" rel="stylesheet">
+    <script src="js/js.js"></script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNaBtYnoSuBvswBuMwrnjRD-T7ZW2Z6W4&callback=initMap">
+    </script>
+
   </head>
   <body>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 47.608013, lng: -122.335167},
-          zoom: 14
-        });
-        var marker = new google.maps.Marker({
-          position: {lat: 47.608013, lng: -122.335167},
-          map: map,
-          title: 'Hello World!'//Downtown Seattle
-        });
-        var marker = new google.maps.Marker({
-          position: {lat: 47.620422, lng: -122.349358},
-          map: map,
-          title: 'Hello World!'//Space Needle
-        });
-      }
+    <div id="floating-panel">
+      <input id="address" type="textbox" value="">
+      <input id="submit" type="button" value="Geocode">
+    </div>
+    
+    <div id="map" onload="initMap()"></div>
 
-      // function createGeocoding(address, city, state) {
-      //   var newAddress = address.replace(/ /g,"+");
-      //   var newCity = city.replace(/ /g,"+");
-      //   var combine = "https://maps.googleapis.com/maps/api/geocode/json?address=" + newAddress + "+" + newCity + "+" + state + "&key=AIzaSyDFiEU8z8_StP74yEzVVfRu6YwHwNnXuVs";
-      //   return combine
-      // }
-      // window.open(createGeoCode("9600 College Way N", "New Seattle", "WA"));
-      // // console.log(createGeoCode("9600 College Way N", "Seattle", "WA"));
-    </script>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFiEU8z8_StP74yEzVVfRu6YwHwNnXuVs&callback=initMap">
-    </script>
+      <div id="side-bar">
+        <h2>Property Types</h2><br>
+        <ul>
+            <li>
+              <img src="images/pin-blue.png" alt="blue">
+              <p>Lorem Ipsom</p>
+            </li><br>
+            <li>
+              <img src="images/pin-red.png" alt="red">
+              <p>Lorem Ipsom</p>
+            </li><br>
+            <li>
+              <img src="images/pin-green.png" alt="green">
+              <p>Lorem Ipsom</p>
+            </li><br>
+            <li>
+              <img src="images/pin-purple.png" alt="purple">
+              <p>Lorem Ipsom</p>
+            </li><br>
+          </ul>
+
+          <h3>Overlays</h3><br>
+          <ul>
+            <li><img src="images/traffic-light.jpg" alt="traffic" onclick="trafficOverlay()">
+              <p onclick="trafficOverlay()">Traffic</p>
+            </li><br>
+        </ul>
+      </div>
   </body>
 </html>
