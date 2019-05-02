@@ -29,7 +29,7 @@ html, body {
 #side-bar ul{
   font-size: 10px;
   font-family: calibri, century, serif;
-  
+
 }
 
 #side-bar li{
@@ -57,4 +57,14 @@ html, body {
   background-color: #bbb;
   color: white;
   text-align: center;
+}
+
+#floating-panel {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
 }
