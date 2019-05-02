@@ -6,6 +6,7 @@
     <meta charset="utf-8">
 
     <link href="css/styles.css"	type="text/css" rel="stylesheet">
+    <script src="js/js.js"></script>
 
   </head>
   <body>
@@ -34,8 +35,8 @@
 
           <h3>Overlays</h3><br>
           <ul>
-            <li><img src="images/traffic-light.jpg" alt="traffic">
-              <p>Traffic</p>
+            <li><img src="images/traffic-light.jpg" alt="traffic" onclick="trafficOverlay()">
+              <p onclick="trafficOverlay()">Traffic</p>
             </li><br>
         </ul>
 
@@ -53,12 +54,8 @@
           map: map,
           title: 'Hello World!'//Downtown Seattle
         });
-        var marker = new google.maps.Marker({
-          position: {lat: 47.620422, lng: -122.349358},
-          map: map,
-          title: 'Hello World!'//Space Needle
-        });
       }
+
 
       // function createGeocoding(address, city, state) {
       //   var newAddress = address.replace(/ /g,"+");
