@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Geocoding</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      h1 {
+        margin: 30px;
+      }
+      p {
+        margin-left: 40px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Geocoding Request</h1>
+    <p>Example #1 - North Seattle College</p>
+    <p id="geocode"></p>
+    <p>Example #2 - Starbucks Headquarters</p>
+    <p id="geocode2"></p>
+    <script>
+
+      // This function creates a geocoding response
+      function createGeocoding(address, city, state) {
+        var newAddress = address.replace(/ /g,"+");
+        var newCity = city.replace(/ /g,"+");
+        var combine = "https://maps.googleapis.com/maps/api/geocode/json?address=" + newAddress + "+" + newCity + "+" + state + "&key=AIzaSyDFiEU8z8_StP74yEzVVfRu6YwHwNnXuVs";
+        return combine
+      }
+
+      // Document.innerHTML
+      // This prints out the geocoding request in webpage
+      // Pass in any street address, city and state
+      document.getElementById("geocode").innerHTML = createGeoCode("9600 College Way N", "Seattle", "WA");
+      document.getElementById("geocode2").innerHTML = createGeoCode("2401 Utah Ave S", "Seattle", "WA");
+
+      //Console.log
+      // This prints out the geocoding request in console log
+      // Pass in any street address, city and state
+      console.log(createGeoCode("9600 College Way N", "Seattle", "WA"));
+      // console.log(createGeoCode("2401 Utah Ave S", "Seattle", "WA"));
+
+      // Window.open
+      // This opens new window of geocoding response in JSON
+      // Pass in any street address, city and state
+      window.open(createGeoCode("9600 College Way N", "Seattle", "WA"));
+      // window.open(createGeoCode("2401 Utah Ave S", "Seattle", "WA"));
+      var geoCode = createGeoCode("9600 College Way N", "Seattle", "WA");
+
+    </script>
+  </body>
+</html>
