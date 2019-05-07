@@ -20,15 +20,16 @@ html, body {
   width: 20%;
   float: left;
   background-color: white;
+  font-family: century gothic, century, serif;
 }
 
 #side-bar ul{
   font-size: 12px;
-  font-family: calibri, century, serif;
-
+  font-family: century gothic, century, serif;
 }
 
 #side-bar li{
+  text-align:center;
   display: inline-block;
 }
 
@@ -39,10 +40,10 @@ html, body {
 }
 
 #side-bar h2{
-  font-size: 14px;
-  padding: 5px;
+  font-size: 16px;
+  padding: 10px;
   margin: 0px auto;
-  background-color: black;
+  background-color:#2E2D2D;
   color: white;
   text-align: center;
 }
