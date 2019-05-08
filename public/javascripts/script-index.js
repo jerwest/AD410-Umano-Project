@@ -1,14 +1,24 @@
 function initMap() {
+  var umanoLatLng = {lat: 47.700578, lng: -122.325019}
+  
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 47.700578, lng: -122.325019},
+    center: umanoLatLng,
     zoom: 12
   });
 
+  var marker = new google.maps.Marker({
+    position: umanoLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+
+  /*
   var geocoder = new google.maps.Geocoder();
 
   document.getElementById('submit').addEventListener('click', function() {
     geocodeAddress(geocoder, map);
   });
+  */
 }
 
 function geocodeAddress(geocoder, resultsMap) {
