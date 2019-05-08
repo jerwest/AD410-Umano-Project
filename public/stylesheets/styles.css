@@ -30,7 +30,9 @@ html, body {
 
 #side-bar li{
   text-align:center;
-  display: inline-block;
+  display: block;
+  margin: 5px auto;
+
 }
 
 #side-bar img{

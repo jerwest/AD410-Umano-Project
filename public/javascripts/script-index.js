@@ -30,3 +30,15 @@ function trafficOverlay() {
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 }
+
+/*
+function streetViewOverlay() {
+  var panorama;
+  panorama = new google.maps.StreetViewPanorama(
+      document.getElementById('map'),
+      {
+        position: {lat: 47.700578, lng: -122.325019},
+        pov: {heading: 165, pitch: 0},
+        zoom: 1
+      });
+*/
