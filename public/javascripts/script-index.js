@@ -1,9 +1,9 @@
 function initMap() {
   var umanoLatLng = {lat: 47.700578, lng: -122.325019}
-  
+
   var map = new google.maps.Map(document.getElementById('map'), {
     center: umanoLatLng,
-    zoom: 12
+    zoom: 13
   });
 
   var marker = new google.maps.Marker({

@@ -29,36 +29,43 @@ html, body {
 }
 
 #side-bar li{
-  text-align:center;
   display: block;
   margin: 5px auto;
-
 }
 
 #side-bar img{
   display: block;
   margin: 10px auto;
   width: 50%;
+  padding-bottom: 10px;
 }
 
 #side-bar li img{
   width: 7%;
   float: left;
-
+  margin-right: 15%;
+  margin-bottom:5%;
 }
 
 #side-bar h2{
   font-size: 16px;
   padding: 10px;
-  margin: 8px auto;
+  margin: 10px auto;
   background-color:#2E2D2D;
   color: white;
   text-align: center;
+}
+
+#side-bar p{
+  padding: 5% 5% 5% 20% ;
+}
+
+#side-bar p.hover{
+    background-color: #2E2D2D;
 }
 
 #side-bar li select{
   padding: .4em 1.5em .4em .9em;
   border: 1px solid #ccc;
   margin-top: 3%;
-
 }
