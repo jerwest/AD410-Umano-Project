@@ -43,12 +43,14 @@ html, body {
 
 #side-bar li img{
   width: 7%;
+  float: left;
+
 }
 
 #side-bar h2{
   font-size: 16px;
   padding: 10px;
-  margin: 0px auto;
+  margin: 5px auto;
   background-color:#2E2D2D;
   color: white;
   text-align: center;
@@ -57,5 +59,6 @@ html, body {
 #side-bar li select{
   padding: .4em 1.5em .4em .9em;
   border: 1px solid #ccc;
+  margin-top: 3%;
 
 }
