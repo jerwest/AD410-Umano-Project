@@ -14,40 +14,62 @@
 
   </head>
   <body>
-    <div id="floating-panel">
-      <input id="address" type="textbox" value="">
-      <input id="submit" type="button" value="Geocode">
-    </div>
 
     <div id="map" onload="initMap()"></div>
 
       <div id="side-bar">
-        <h2>Property Types</h2><br>
+
+        <a href="https://www.umanopm.com/"><img src="images/logo.jpg" alt="logo"></a>
+
+        <h2>Property Types</h2>
         <ul>
             <li>
-              <img src="images/pin-blue.png" alt="blue">
-              <p>Lorem Ipsom</p>
+              <img src="images/blue.png" alt="blue">
+              <select>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+              </select>
             </li><br>
             <li>
-              <img src="images/pin-red.png" alt="red">
-              <p>Lorem Ipsom</p>
+              <img src="images/green.png" alt="green">
+              <select>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+              </select>
             </li><br>
             <li>
-              <img src="images/pin-green.png" alt="green">
-              <p>Lorem Ipsom</p>
+              <img src="images/yellow.png" alt="yellow">
+              <select>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+              </select>
             </li><br>
             <li>
-              <img src="images/pin-purple.png" alt="purple">
-              <p>Lorem Ipsom</p>
-            </li><br>
+              <img src="images/orange.png" alt="orange">
+              <select>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+                <option value="Lorem">Lorem</option>
+                <option value="Ipsom">Ipsom</option>
+              </select>
+            </li>
           </ul>
 
-          <h3>Overlays</h3><br>
+          <h2>Overlays</h2>
           <ul>
-            <li><img src="images/traffic-light.jpg" alt="traffic" onclick="trafficOverlay()">
-              <p onclick="trafficOverlay()">Traffic</p>
-            </li><br>
+            <li>
+              <strong><p onclick="trafficOverlay()">Traffic</p></strong>
+            </li>
+            <li>
+              <strong><p onclick="streetViewOverlay()">StreetView</p></strong>
+            </li>
         </ul>
-      </div>
+      </div> <!-- end sidebar -->
   </body>
 </html>
