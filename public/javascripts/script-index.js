@@ -1,4 +1,3 @@
-let map;
 
 function initMap() {
   var umanoLatLng = {lat: 47.700578, lng: -122.325019}
@@ -8,12 +7,14 @@ function initMap() {
     zoom: 11
   });
 
+/* drop umano office pin*/
   var marker = new google.maps.Marker({
     position: umanoLatLng,
     map: map,
     title: 'Umano Property Management'
   });
 
+/* drop all other property pins  */
   var infowindow = new google.maps.InfoWindow();
   var marker, i;
 
@@ -33,7 +34,8 @@ function initMap() {
         }
       })(marker, i));
     }
-}
+} /* End of Create Map - function initMap() */
+
 
 /* Overlays */
 
@@ -54,9 +56,8 @@ function streetViewOverlay() {
 */
 
 
-/*  Geocoding  */
 
-
+/*  Geocoding Addresses */
 var locations = [
 	  [
 	  '<strong>Single-Family</strong><br>\r\
