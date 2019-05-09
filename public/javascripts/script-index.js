@@ -9,7 +9,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: umanoLatLng,
     map: map,
-    title: 'Hello World!'
+    title: 'Umano Property Management'
   });
 
   /*
@@ -36,10 +36,14 @@ function geocodeAddress(geocoder, resultsMap) {
   });
 }
 
+
+
 function trafficOverlay() {
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 }
+
+
 
 /*
 function streetViewOverlay() {
