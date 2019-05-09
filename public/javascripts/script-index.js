@@ -23,7 +23,7 @@ function initMap() {
           position: new google.maps.LatLng(locations[i][1], locations[i][2]),
           map: map,
           icon: {
-            url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+            url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
           }
         });
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
