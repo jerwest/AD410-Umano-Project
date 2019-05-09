@@ -35,10 +35,10 @@ html, body {
 }
 
 #side-bar li:hover {
-  background: #bbb;
+  background: #D6DBDF;
 }
 #side-bar li.clicked {
-  background: #ccc;
+  background: #EBF5FB;
 }
 
 #side-bar img{
@@ -49,7 +49,7 @@ html, body {
 }
 
 #side-bar li img{
-  width: 7%;
+  width: 9%;
   float: left;
   margin-right: 20px;
 }
@@ -69,7 +69,8 @@ html, body {
 }
 
 #side-bar li select{
-  padding: .4em 1.5em .4em .9em;
+  padding: .4em 1.3em .4em .7em;
   border: 1px solid #ccc;
+  margin-top: 8px;
 
 }
