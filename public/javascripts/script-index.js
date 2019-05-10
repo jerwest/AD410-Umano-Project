@@ -1,12 +1,12 @@
+var map = {}
 
 function initMap() {
   var umanoLatLng = {lat: 47.700578, lng: -122.325019}
-
-  var map = new google.maps.Map(document.getElementById('map'), {
+  
+    map = new google.maps.Map(document.getElementById('map'), {
     center: umanoLatLng,
     zoom: 11
   });
-
    /* drop umano office pin*/
   var marker = new google.maps.Marker({
     position: umanoLatLng,
@@ -42,17 +42,6 @@ function trafficOverlay() {
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 }
-/*
-function streetViewOverlay() {
-  var panorama;
-  panorama = new google.maps.StreetViewPanorama(
-      document.getElementById('map'),
-      {
-        position: {lat: 47.700578, lng: -122.325019},
-        pov: {heading: 165, pitch: 0},
-        zoom: 1
-      });
-*/
 
 
 
