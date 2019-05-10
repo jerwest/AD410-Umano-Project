@@ -2,19 +2,29 @@ var map = {}
 
 function initMap() {
   var umanoLatLng = {lat: 47.700578, lng: -122.325019}
-  
+
     map = new google.maps.Map(document.getElementById('map'), {
     center: umanoLatLng,
     zoom: 11
   });
    /* drop umano office pin*/
-  var marker = new google.maps.Marker({
-    position: umanoLatLng,
-    map: map,
-    title: 'Umano Property Management'
-  });
+ 
+	/***** marker info **/
+	/*
+	 var infowindow = new google.maps.InfoWindow({
+      content: 'hello world'
+	  });
+
+   // Attach it to the marker we've just added
+   google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+   });
+	*/
+
+	/** zoom in more**/
 
   /* drop all other property pins  */
+	
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
 
@@ -33,6 +43,7 @@ function initMap() {
           }
         })(marker, i));
       }
+	
 } /* End of Create Map - function initMap() */
 
 
@@ -46,6 +57,7 @@ function trafficOverlay() {
 
 
 /*  Geocoding - Addresses */
+
 var locations = [
 	  [
 	  '<strong>Single-Family</strong><br>\r\
@@ -59,11 +71,14 @@ var locations = [
 	  '<strong>Single-Family</strong><br>\r\
     	411 NE 94th St	Seattle	WA	98115 <br>\
     	<a href="https://goo.gl/maps/D3nBapfoaQruZTkx7">Get Directions</a>',
-		47.696563, -122.324161,
+		47.696563, -122.324161,"http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
 
 
 
 		],
+	
+	
+
 		[
 	  '<strong>Single-Family</strong><br>\r\
     	806 217th Place Northeast Sammamish	WA	98074 <br>\
@@ -237,7 +252,7 @@ var locations = [
 	'<strong>Multi-Family</strong><br>\r\
     	4616 25th Ave NE #133 Seattle WA 98105<br>\
     	<a href="https://goo.gl/maps/yu1TpzbYNedDDPwg7">Get Directions</a>',
-		47.66237 , -122.300133,
+		47.66237 , -122.300133, 
 
 		]
 
