@@ -1,14 +1,21 @@
 var map = {}
+var trafficLayer = {}
+var bikeLayer = {}
 
 function initMap() {
   var umanoLatLng = {lat: 47.700578, lng: -122.325019}
 
+  /*overlay variables*/
+  trafficLayer = new google.maps.TrafficLayer();
+  bikeLayer = new google.maps.BicyclingLayer();
+
     map = new google.maps.Map(document.getElementById('map'), {
     center: umanoLatLng,
     zoom: 11
-  });
+    });
+
    /* drop umano office pin*/
- 
+
 	/***** marker info **/
 	/*
 	 var infowindow = new google.maps.InfoWindow({
@@ -23,8 +30,7 @@ function initMap() {
 
 	/** zoom in more**/
 
-  /* drop all other property pins  */
-	
+    /* drop all other property pins  */
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
 
@@ -43,17 +49,28 @@ function initMap() {
           }
         })(marker, i));
       }
-	
+
 } /* End of Create Map - function initMap() */
 
 
 
 /* Overlays */
-function trafficOverlay() {
-  var trafficLayer = new google.maps.TrafficLayer();
-  trafficLayer.setMap(map);
+function trafficToggle(){
+  if(trafficLayer.getMap() == null){
+        //traffic layer is disabled.. enable it
+        trafficLayer.setMap(map);
+    } else {
+        //traffic layer is enabled.. disable it
+        trafficLayer.setMap(null);
+    }
 }
-
+function bikeToggle(){
+  if(bikeLayer.getMap() == null){
+        bikeLayer.setMap(map);
+    } else {
+        bikeLayer.setMap(null);
+    }
+}
 
 
 /*  Geocoding - Addresses */
@@ -76,8 +93,8 @@ var locations = [
 
 
 		],
-	
-	
+
+
 
 		[
 	  '<strong>Single-Family</strong><br>\r\
@@ -252,7 +269,7 @@ var locations = [
 	'<strong>Multi-Family</strong><br>\r\
     	4616 25th Ave NE #133 Seattle WA 98105<br>\
     	<a href="https://goo.gl/maps/yu1TpzbYNedDDPwg7">Get Directions</a>',
-		47.66237 , -122.300133, 
+		47.66237 , -122.300133,
 
 		]
 
