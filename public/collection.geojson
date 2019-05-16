@@ -7,9 +7,7 @@
 			"coordinates": [47.605317, -122.292903]
 		},
 		"properties": {
-			"flush": true,
-			"shower": true,
-			"vault": false,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "401 31st Ave, Seattle, WA 98122",
 			"marker-size": "small"
@@ -21,9 +19,7 @@
 			"coordinates": [47.696563, -122.324161]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "411 NE 94th St, Seattle, WA 98115",
 			"marker-size": "small"
@@ -35,9 +31,7 @@
 			"coordinates": [47.616734, -122.049723]
 		},
 		"properties": {
-			"flush": true,
-			"shower": false,
-			"vault": false,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "806 217th Place Northeast, Sammamish, WA 98074",
 			"marker-size": "small"
@@ -49,9 +43,7 @@
 		"coordinates": [47.620572, -122.198734]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"condo_townhome": true,
 		"description": "Condo/Townhome",
 		"title": "1100 106th Avenue Northeast #205,Bellevue, WA 98004",
 		"marker-size": "small"
@@ -63,9 +55,7 @@
 		"coordinates": [48.007992, -122.106533]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"single_family": true,
 		"description": "Single-Family",
 		"title": "1300 92nd Ave NE, Lake Stevens, WA 98258",
 		"marker-size": "small"
@@ -77,9 +67,7 @@
 		"coordinates": [47.505121, -122.178819]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"multi_family": true,
 		"description": "Multi-Family",
 		"title": "1419 Kirkland Avenue Northeast, Renton, WA 98056",
 		"marker-size": "small"
@@ -91,9 +79,7 @@
 		"coordinates": [47.66998, -122.377318]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": false,
+		"condo_townhome": true,
 		"description": "Condo/Townhome",
 		"title": "1525 NW 57th St #525, Seattle, WA 98107",
 		"marker-size": "small"
@@ -105,9 +91,7 @@
 		"coordinates": [47.703418, -122.336969]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"single_family": true,
 		"description": "Single-Family",
 		"title": "1710 103rd St, Seattle, WA 98133",
 		"marker-size": "small"
@@ -119,9 +103,7 @@
 		"coordinates": [47.613892, -122.34395]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"condo_townhome": true,
 		"description": "Condo/Townhome",
 		"title": "2201 3rd Avenue, Seattle, WA 98121",
 		"marker-size": "small"
@@ -133,9 +115,7 @@
 		"coordinates": [47.831166, -122.176762]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"single_family": true,
 		"description": "Single-Family",
 		"title": "4120 183rd Place Southeast, Bothell, WA 98012",
 		"marker-size": "small"
@@ -147,9 +127,7 @@
 		"coordinates": [47.555938, -122.277854]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": false,
+		"single_family": true,
 		"description": "Single-Family",
 		"title": "5037 S Bowen Place, Seattle, WA 98118",
 		"marker-size": "small"
@@ -162,9 +140,7 @@
 			"coordinates": [47.551711, -122.357385]
 		},
 		"properties": {
-			"flush": true,
-			"shower": true,
-			"vault": false,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "5603 18th Avenue Southwest, Seattle, WA 98106",
 			"marker-size": "small"
@@ -176,9 +152,7 @@
 			"coordinates": [47.692168, -122.338396]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "8613 Densmore Ave N, Seattle, WA 98103",
 			"marker-size": "small"
@@ -190,9 +164,7 @@
 			"coordinates": [47.681413, -122.11962]
 		},
 		"properties": {
-			"flush": true,
-			"shower": false,
-			"vault": false,
+			"condo_townhome": true,
 			"description": "Condo/Townhome",
 			"title": "8851 166th Ave NE #A101, Bellevue, WA 98052",
 			"marker-size": "small"
@@ -204,9 +176,7 @@
 			"coordinates": [47.913092, -122.319925]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "9328 63rd Place West, Mukilteo, WA 98275",
 			"marker-size": "small"
@@ -218,9 +188,7 @@
 			"coordinates": [47.715468, -122.103608]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "12834 176th Place Northeast, Redmond, WA 98052",
 			"marker-size": "small"
@@ -232,9 +200,7 @@
 			"coordinates": [47.754259, -122.161496]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"retail": true,
 			"description": "Retail",
 			"title": "13311 NE 175th St, Woodinville, WA 98072",
 			"marker-size": "small"
@@ -246,9 +212,7 @@
 			"coordinates": [47.756915, -122.350651]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": false,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "17536 Fremont Ave N, Shoreline, WA 98133",
 			"marker-size": "small"
@@ -260,9 +224,7 @@
 			"coordinates": [47.619707, -122.06143]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"single_family": true,
 			"description": "Single-Family",
 			"title": "20823 Northeast Inglewood Hill Road, Sammamish, WA 98074",
 			"marker-size": "small"
@@ -274,9 +236,7 @@
 			"coordinates": [47.711699, -122.29867]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"multi_family": true,
 			"description": "Multi-Family",
 			"title": "2711 Northeast 115th Street, Seattle, WA 98125",
 			"marker-size": "small"
@@ -288,9 +248,7 @@
 			"coordinates": [47.624923, -122.316403]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
+			"multi_family": true,
 			"description": "Multi-Family",
 			"title": "620 12th Avenue East, Seattle, WA 98102",
 			"marker-size": "small"
@@ -302,9 +260,7 @@
 			"coordinates": [47.639865, -122.36519]
 		},
 		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": false,
+			"multi_family": true,
 			"description": "Multi-Family",
 			"title": "2403 6th Ave W, Seattle, WA 98119",
 			"marker-size": "small"
@@ -316,9 +272,7 @@
 		"coordinates": [47.671405, -122.325231]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"multi_family": true,
 		"description": "Multi-Family",
 		"title": "5818 Latona Avenue Northeast, Seattle, WA 98105",
 		"marker-size": "small"
@@ -330,9 +284,7 @@
 		"coordinates": [47.821584 , -122.301419]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": false,
+			"office": true,
 		"description": "Office",
 		"title": "5017 196th Street Southwest, Lynnwood, WA 98036",
 		"marker-size": "small"
@@ -344,9 +296,7 @@
 		"coordinates": [47.653878 , -122.347657]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": true,
+		"multi_family": true,
 		"description": "Multi-Family",
 		"title": "3837 Aurora Avenue North, Seattle, WA 98103",
 		"marker-size": "small"
@@ -358,9 +308,7 @@
 		"coordinates": [47.66237 , -122.300133]
 	},
 	"properties": {
-		"flush": false,
-		"shower": false,
-		"vault": false,
+		"multi_family": true,
 		"description": "Multi-Family",
 		"title": "4616 25th Ave NE #133, Seattle, WA 98105",
 		"marker-size": "small"
