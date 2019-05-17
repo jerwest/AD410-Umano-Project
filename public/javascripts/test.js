@@ -1,5 +1,7 @@
 var map
 var markers = []
+var trafficLayer = {}
+var bikeLayer = {}
 
 // start out with filter features set to false, so no filtering happens by default
 var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false}
@@ -86,6 +88,8 @@ function loadMarkers() {
 }
 
 function initMap() {
+    trafficLayer = new google.maps.TrafficLayer();
+    bikeLayer = new google.maps.BicyclingLayer();
     map_options = {
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.HYBRID,
