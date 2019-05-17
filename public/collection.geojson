@@ -12,7 +12,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "401 31st Ave, Seattle, WA 98122",
 			"marker-size": "small"
 		}
@@ -28,7 +28,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "411 NE 94th St, Seattle, WA 98115",
 			"marker-size": "small"
 		}
@@ -44,7 +44,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "806 217th Place Northeast, Sammamish, WA 98074",
 			"marker-size": "small"
 		}
@@ -60,7 +60,7 @@
 		"condo_townhome": true,
 		"retail": false,
 		"office": false,
-		"description": "Condo/Townhome",
+		"description": "Condo/Townhome<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "1100 106th Avenue Northeast #205,Bellevue, WA 98004",
 		"marker-size": "small"
 	}
@@ -76,7 +76,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Single-Family",
+		"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "1300 92nd Ave NE, Lake Stevens, WA 98258",
 		"marker-size": "small"
 	}
@@ -92,7 +92,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Multi-Family",
+		"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "1419 Kirkland Avenue Northeast, Renton, WA 98056",
 		"marker-size": "small"
 	}
@@ -108,7 +108,7 @@
 		"condo_townhome": true,
 		"retail": false,
 		"office": false,
-		"description": "Condo/Townhome",
+		"description": "Condo/Townhome<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "1525 NW 57th St #525, Seattle, WA 98107",
 		"marker-size": "small"
 	}
@@ -124,7 +124,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Single-Family",
+		"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "1710 103rd St, Seattle, WA 98133",
 		"marker-size": "small"
 	}
@@ -140,7 +140,7 @@
 		"condo_townhome": true,
 		"retail": false,
 		"office": false,
-		"description": "Condo/Townhome",
+		"description": "Condo/Townhome<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "2201 3rd Avenue, Seattle, WA 98121",
 		"marker-size": "small"
 	}
@@ -156,7 +156,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Single-Family",
+		"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "4120 183rd Place Southeast, Bothell, WA 98012",
 		"marker-size": "small"
 	}
@@ -172,7 +172,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Single-Family",
+		"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "5037 S Bowen Place, Seattle, WA 98118",
 		"marker-size": "small"
 	}
@@ -189,7 +189,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "5603 18th Avenue Southwest, Seattle, WA 98106",
 			"marker-size": "small"
 		}
@@ -205,7 +205,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "8613 Densmore Ave N, Seattle, WA 98103",
 			"marker-size": "small"
 		}
@@ -221,7 +221,7 @@
 			"condo_townhome": true,
 			"retail": false,
 			"office": false,
-			"description": "Condo/Townhome",
+			"description": "Condo/Townhome<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "8851 166th Ave NE #A101, Bellevue, WA 98052",
 			"marker-size": "small"
 		}
@@ -237,7 +237,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "9328 63rd Place West, Mukilteo, WA 98275",
 			"marker-size": "small"
 		}
@@ -253,7 +253,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "12834 176th Place Northeast, Redmond, WA 98052",
 			"marker-size": "small"
 		}
@@ -269,7 +269,7 @@
 			"condo_townhome": false,
 			"retail": true,
 			"office": false,
-			"description": "Retail",
+			"description": "Retail<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "13311 NE 175th St, Woodinville, WA 98072",
 			"marker-size": "small"
 		}
@@ -285,7 +285,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "17536 Fremont Ave N, Shoreline, WA 98133",
 			"marker-size": "small"
 		}
@@ -301,7 +301,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "20823 Northeast Inglewood Hill Road, Sammamish, WA 98074",
 			"marker-size": "small"
 		}
@@ -317,7 +317,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Multi-Family",
+			"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "2711 Northeast 115th Street, Seattle, WA 98125",
 			"marker-size": "small"
 		}
@@ -333,7 +333,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Multi-Family",
+			"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "620 12th Avenue East, Seattle, WA 98102",
 			"marker-size": "small"
 		}
@@ -349,7 +349,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Multi-Family",
+			"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 			"title": "2403 6th Ave W, Seattle, WA 98119",
 			"marker-size": "small"
 		}
@@ -365,7 +365,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Multi-Family",
+		"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "5818 Latona Avenue Northeast, Seattle, WA 98105",
 		"marker-size": "small"
 	}
@@ -397,7 +397,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Multi-Family",
+		"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "3837 Aurora Avenue North, Seattle, WA 98103",
 		"marker-size": "small"
 	}
@@ -413,7 +413,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
-		"description": "Multi-Family",
+		"description": "Multi-Family<br><h4><ul><li>Bed: 4</li></ul><ul><li>Baths: 3.5</li></ul><ul><li>Sq.Ft: 3420</li></ul><ul><li>Stories: 2</li></ul></h4>",
 		"title": "4616 25th Ave NE #133, Seattle, WA 98105",
 		"marker-size": "small"
 	}
