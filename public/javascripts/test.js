@@ -72,7 +72,7 @@ function loadMarkers() {
           properties: val['properties']
          });
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>Amenities: " + descriptionText + "</div>"
+        var markerInfo = "<div><h3>" + titleText + "</h3>Property Type: " + descriptionText + "</div>"
 
 
         marker.addListener('click', function() {
