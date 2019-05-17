@@ -12,7 +12,7 @@
 			"condo_townhome": false,
 			"retail": false,
 			"office": false,
-			"description": "Single-Family",
+			"description": "Single-Family<br>",
 			"title": "401 31st Ave, Seattle, WA 98122",
 			"marker-size": "small"
 		}
