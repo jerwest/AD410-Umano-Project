@@ -73,6 +73,15 @@ function loadMarkers() {
           map: map,
           properties: val['properties']
          });
+		  /********zoom In marker ****/
+		   map.addListener('center_changed', function() {
+          // 3 seconds after the center of the map has changed, pan back to the
+          // marker.
+          window.setTimeout(function() {
+            map.panTo(marker.getPosition());
+          }, 3000);
+        });
+		  
 
         var markerInfo = "<div><h3>" + titleText + "</h3>Property Type: " + descriptionText + "</div>"
 
@@ -81,6 +90,8 @@ function loadMarkers() {
               infoWindow.close()
               infoWindow.setContent(markerInfo)
               infoWindow.open(map, marker)
+			 map.setZoom(10);
+          map.setCenter(marker.getPosition());
             });
         markers.push(marker)
       });
@@ -91,7 +102,7 @@ function initMap() {
     trafficLayer = new google.maps.TrafficLayer();
     bikeLayer = new google.maps.BicyclingLayer();
     map_options = {
-      zoom: 10,
+      zoom: 8,
       mapTypeId: google.maps.MapTypeId.HYBRID,
       center: {lat: 47.700578, lng: -122.325019}
     }
