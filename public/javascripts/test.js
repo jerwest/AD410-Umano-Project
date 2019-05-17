@@ -17,6 +17,7 @@ var get_set_options = function() {
   ret_array = []
   for (option in filters) {
     if (filters[option]) {
+		
       ret_array.push(option)
     }
   }
