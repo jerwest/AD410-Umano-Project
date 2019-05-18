@@ -70,7 +70,8 @@ function loadMarkers() {
         var descriptionText = val['properties']['description']
         var marker = new google.maps.Marker({
           position: point,
-          title: titleText,
+            /*** mouseover disabled ***/
+          //title: titleText,
           map: map,
           properties: val['properties']
          });
@@ -88,17 +89,28 @@ function loadMarkers() {
         });
 		 
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>Property Type: " + descriptionText + "</div>"
-
+        var markerInfo = "<div>" + titleText + "Property Type: " + descriptionText + "</div>"
+      // marker.addListner('center_change',function(){
+        //   window.setTimeout(function(){
+          //     map.panTo(marker.getPosition());
+           //},3000);
+      // });
 
         marker.addListener('click', function() {
               infoWindow.close()
               infoWindow.setContent(markerInfo)
               infoWindow.open(map, marker)
 			/****zoom in code ***/
-			 map.setZoom(12);
+            map.setZoom(13);
           map.setCenter(marker.getPosition());
             });
+          /*
+          markers.push(marker)
+          marker.addListener('ondbclick',function(){
+              map.setZoom(18);
+              map.setCenter(marker.getPosition());
+          });
+          */
         markers.push(marker)
       });
   });
@@ -111,6 +123,8 @@ function initMap() {
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.HYBRID,
       center: {lat: 47.700578, lng: -122.325019}
+		/**** night mode *****/
+		
     }
 
     map_document = document.getElementById('map')
