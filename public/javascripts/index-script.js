@@ -70,7 +70,8 @@ function loadMarkers() {
         var descriptionText = val['properties']['description']
         var marker = new google.maps.Marker({
           position: point,
-          title: titleText,
+            /********* fix highliting hover on pin ***********/
+          //title: titleText,
           map: map,
           animation: google.maps.Animation.DROP,
           properties: val['properties']
