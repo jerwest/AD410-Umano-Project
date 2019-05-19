@@ -17,7 +17,7 @@ var get_set_options = function() {
   ret_array = []
   for (option in filters) {
     if (filters[option]) {
-		
+
       ret_array.push(option)
     }
   }
@@ -72,6 +72,7 @@ function loadMarkers() {
           position: point,
           title: titleText,
           map: map,
+          animation: google.maps.Animation.DROP,
           properties: val['properties']
          });
 		  /********zoom In marker ****/
@@ -82,11 +83,11 @@ function loadMarkers() {
 			   /*
           window.setTimeout(function() {
             map.panTo(marker.getPosition());
-			
+
           }, 3000);
 		  */
         });
-		 
+
 
         var markerInfo = "<div><h3>" + titleText + "</h3>Property Type: " + descriptionText + "</div>"
 
