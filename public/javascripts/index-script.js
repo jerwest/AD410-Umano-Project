@@ -68,6 +68,7 @@ function loadMarkers() {
                 parseFloat(val['geometry']['coordinates'][1]));
         var titleText = val['properties']['title']
         var descriptionText = val['properties']['description']
+        var markercolor = val['properties']['marker-color']
         var marker = new google.maps.Marker({
           position: point,
             /********* fix highliting hover on pin ***********/
@@ -90,7 +91,7 @@ function loadMarkers() {
         });
 
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>Property Type: " + descriptionText + "</div>"
+        var markerInfo =descriptionText+titleText 
 
 
         marker.addListener('click', function() {
