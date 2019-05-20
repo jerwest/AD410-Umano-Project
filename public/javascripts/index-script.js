@@ -124,10 +124,8 @@ function initMap() {
 /* Overlays */
 function trafficToggle(){
   if(trafficLayer.getMap() == null){
-        //traffic layer is disabled.. enable it
         trafficLayer.setMap(map);
     } else {
-        //traffic layer is enabled.. disable it
         trafficLayer.setMap(null);
     }
 }
@@ -138,5 +136,7 @@ function bikeToggle(){
         bikeLayer.setMap(null);
     }
 }
+
+
 
 google.maps.event.addDomListener(window, 'load', initMap);

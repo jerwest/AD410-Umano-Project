@@ -30,14 +30,14 @@ html, body {
 
 #side-bar li{
   display: block;
-  padding: 7px 40px;
+  padding: 7px 50px;
   margin-left: -40px;
   font-size: 15px;
 }
-
+/*
 #side-bar li.clicked, li:hover {
   background: #EBF5FB;
-}
+}*/
 
 #side-bar img{
   display: block;
@@ -62,23 +62,16 @@ html, body {
 }
 
 #side-bar p{
-  padding: 0px 20px;
+  padding: 0px 10px;
   font-size: 15px;
 }
 
-#side-bar li select{
-  padding: .4em 1.3em .4em .7em;
-  border: .3px solid #BFC9CA;
-  margin-top: 8px;
-
-}
 /* chk-btn CSS from
 http://stackoverflow.com/questions/30100978/how-to-make-a-check-button-hidden-checkbox-with-label-as-a-button-css-only
 */
 
 .chk-btn {
     width: 50px;
-
 }
 
 input.chk-btn {
@@ -91,11 +84,23 @@ input.chk-btn + label {
 
 input.chk-btn:not(:checked) + label:hover {
   box-shadow: 0px 1px 3px;
+  background: #EBF5FB
 }
 
 input.chk-btn + label:active,
 input.chk-btn:checked + label {
   box-shadow: 0px 0px 1px inset;
+  background: #EBF5FB;
+}
+
+#overlays li{
+  margin-left: 10px;
+  width: 100px;
+  padding:1px 40px;
+}
+
+#overlays li:hover{
+  box-shadow: 0px 1px 3px;
   background: #EBF5FB;
 }
 
