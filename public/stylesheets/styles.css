@@ -30,8 +30,9 @@ html, body {
 
 #side-bar li{
   display: block;
-  padding: 5px 20px;
+  padding: 7px 40px;
   margin-left: -40px;
+  font-size: 15px;
 }
 
 #side-bar li.clicked, li:hover {
