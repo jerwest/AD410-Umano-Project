@@ -89,6 +89,11 @@ function loadMarkers() {
           }, 3000);
 		  */
         });
+/***** zoom in map double click function ******/
+           marker.addListener('dblclick',function(){
+         map.setZoom(12);
+         map.setCenter(marker.getPosition)
+     })
 
 
         var markerInfo =descriptionText+titleText 
@@ -98,10 +103,7 @@ function loadMarkers() {
               infoWindow.close()
               infoWindow.setContent(markerInfo)
               infoWindow.open(map, marker)
-			/****zoom in code ***/
-			 map.setZoom(12);
-          map.setCenter(marker.getPosition());
-            });
+			            });
         markers.push(marker)
       });
   });
