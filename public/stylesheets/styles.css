@@ -33,10 +33,10 @@ html, body {
   padding: 7px 50px;
   margin-left: -40px;
 }
-
+/*
 #side-bar li.clicked, li:hover {
   background: #EBF5FB;
-}
+}*/
 
 #side-bar img{
   display: block;
@@ -96,15 +96,13 @@ input.chk-btn:checked + label {
 }
 
 
-#overlays button:hover, button:active, button:focus{
+#overlays button:hover, button:focus{
   box-shadow: 0px 1px 3px;
-  background-color: #EBF5FB;
-  padding:10px 40px;
+  background: #EBF5FB;
   text-decoration: none;
-  border-color: #ddd;
+  border-color: #ccc;
   outline:0;
 }
-
 
 #copyright{
   margin-left: 2px;

@@ -111,7 +111,6 @@ function initMap() {
     bikeLayer = new google.maps.BicyclingLayer();
     map_options = {
       zoom: 10,
-      mapTypeId: google.maps.MapTypeId.HYBRID,
       center: {lat: 47.700578, lng: -122.325019}
     }
 
