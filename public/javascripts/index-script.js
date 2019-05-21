@@ -95,7 +95,7 @@ function loadMarkers() {
          map.setCenter(marker.getPosition)
      })
 
-
+/***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href = "' + directions + '"><br>Get Directions</a>'
 
 
