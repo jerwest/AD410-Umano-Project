@@ -14,7 +14,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "401 31st Ave<br> Seattle, WA 98122<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/hT4CE1bRz2jVKDL59"
 		}
 	}, {
 		"type": "Feature",
@@ -30,7 +31,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "411 NE 94th St<br> Seattle, WA 98115<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/D3nBapfoaQruZTkx7"
 		}
 	}, {
 		"type": "Feature",
@@ -46,7 +48,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "806 217th Place Northeast<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/9ETrqhNHyxCZP4J89"
 		}
 		}, {
 	"type": "Feature",
@@ -62,7 +65,8 @@
 		"office": false,
 		"description": "<strong>Condo/Townhome</strong><br>",
 		"title": "1100 106th Avenue Northeast #205<br>Bellevue, WA 98004<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/1CTTttwP72s1Uipq6"
 	}
 }, {
 	"type": "Feature",
@@ -78,7 +82,8 @@
 		"office": false,
 		"description": "<strong>Single-Family</strong><br>",
 		"title": "1300 92nd Ave NE<br> Lake Stevens, WA 98258<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/S4whT1Qev9bmNPxP8"
 	}
 }, {
 	"type": "Feature",
@@ -94,7 +99,8 @@
 		"office": false,
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "1419 Kirkland Avenue Northeast<br> Renton, WA 98056<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/AkYef1NupppUgJHf7"
 	}
 }, {
 	"type": "Feature",
@@ -110,7 +116,8 @@
 		"office": false,
 		"description": "<strong>Condo/Townhome</strong><br>",
 		"title": "1525 NW 57th St #525<br> Seattle, WA 98107<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/wY7w22j28ExLLvT58"
 	}
 }, {
 	"type": "Feature",
@@ -126,7 +133,8 @@
 		"office": false,
 		"description": "<strong>Single-Family</strong><br>",
 		"title": "1710 103rd St<br> Seattle, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/DUSehFpAWFSnHWSg9"
 	}
 }, {
 	"type": "Feature",
@@ -142,7 +150,8 @@
 		"office": false,
 		"description": "<strong>Condo/Townhome</strong><br>",
 		"title": "2201 3rd Avenue<br> Seattle, WA 98121<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/m7VijgeXaV2C5c5u8"
 	}
 }, {
 	"type": "Feature",
@@ -158,7 +167,8 @@
 		"office": false,
 		"description": "<strong>Single-Family</strong><br>",
 		"title": "4120 183rd Place Southeast<br> Bothell, WA 98012<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/KvD6VZZUhoH5V4FA8"
 	}
 }, {
 	"type": "Feature",
@@ -174,7 +184,8 @@
 		"office": false,
 		"description": "<strong>Single-Family</strong><br>",
 		"title": "5037 S Bowen Place<br> Seattle, WA 98118<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/nFSGGTgdG6a6jWM77"
 	}
 
 	}, {
@@ -191,7 +202,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "5603 18th Avenue Southwest<br> Seattle, WA 98106<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/MWsg7FMixUsxsxoCA"
 		}
 	}, {
 		"type": "Feature",
@@ -207,7 +219,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "8613 Densmore Ave N<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/Zg94uLZVmCpnrHRV7"
 		}
 	}, {
 		"type": "Feature",
@@ -223,7 +236,8 @@
 			"office": false,
 			"description": "<strong>Condo/Townhome</strong><br>",
 			"title": "8851 166th Ave NE #A101<br> Bellevue, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/K7grZaVbLh7yK2n38"
 		}
 	}, {
 		"type": "Feature",
@@ -240,7 +254,8 @@
 			"description":"<strong>Single-Family</strong><br>",
 			"title":"9328 63rd Place West<br> Mukilteo, WA 98275<br>Bed: 4 <br>Baths: 3.5<br> Sq.Ft: 3420<br> Stories: 2",
 			"marker-size": "small",
-            "marker-color": "#ace"
+            "marker-color": "#ace",
+            "url": "https://goo.gl/maps/JWcEVH291cdms31f6"
 		}
 	}, {
 		"type": "Feature",
@@ -256,7 +271,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "12834 176th Place Northeast<br> Redmond, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/H2w7ivDwuVQRgbs19"
 		}
 	}, {
 		"type": "Feature",
@@ -269,10 +285,12 @@
 			"multi_family": false,
 			"condo_townhome": false,
 			"retail": true,
-			"office": false,
+			"office": true,
 			"description": "<strong>Retail</strong> <br>",
+            
 			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/jwFCW6Rzr7LSm2tA8"
 		}
 	}, {
 		"type": "Feature",
@@ -288,7 +306,8 @@
 			"office": false,
 			"description": "<strong> Single-Family</strong><br>",
 			"title": "17536 Fremont Ave N<br> Shoreline, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/hzjEfLRHNvNnnCHE6"
 		}
 	}, {
 		"type": "Feature",
@@ -304,7 +323,8 @@
 			"office": false,
 			"description": "<strong>Single-Family</strong><br>",
 			"title": "20823 Northeast Inglewood Hill Road<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/BffwGhhG8pBrcyaa9"
 		}
 	}, {
 		"type": "Feature",
@@ -320,7 +340,8 @@
 			"office": false,
 			"description": "<strong>Multi-Family</strong><br>",
 			"title": "2711 Northeast 115th Street<br> Seattle, WA 98125<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/sKoSqgPVoKq8nPN47"
 		}
 	}, {
 		"type": "Feature",
@@ -336,7 +357,8 @@
 			"office": false,
 			"description": "<strong>Multi-Family</strong><br>",
 			"title": "620 12th Avenue East<br> Seattle, WA 98102<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/CXQayddEq4j4b7LF7"
 		}
 	}, {
 		"type": "Feature",
@@ -352,7 +374,8 @@
 			"office": false,
 			"description": "<strong>Multi-Family</strong><br>",
 			"title": "2403 6th Ave W<br> Seattle, WA 98119<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-			"marker-size": "small"
+			"marker-size": "small",
+            "url": "https://goo.gl/maps/yRVpiA3LuxrtbH3T6"
 		}
 		}, {
 	"type": "Feature",
@@ -368,7 +391,8 @@
 		"office": false,
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "5818 Latona Avenue Northeast<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/nwvBkJ3rZzhq486Q9"
 	}
 }, {
 	"type": "Feature",
@@ -380,14 +404,15 @@
 		"single_family": false,
 		"multi_family": false,
 		"condo_townhome": false,
-		"retail": false,
+		"retail": true,
 		"office": true,
         "description": "<strong>Office</strong><br>",		
 		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
          "marker-size": "small",
         "marker-color": "#ace",
-         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
+        "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
        
+        
          
         
 	}
@@ -405,7 +430,8 @@
 		"office": false,
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
 	}
 }, {
 	"type": "Feature",
@@ -421,7 +447,8 @@
 		"office": false,
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
-		"marker-size": "small"
+		"marker-size": "small",
+        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
         
 	}
 	}]
