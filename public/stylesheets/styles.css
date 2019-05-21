@@ -24,7 +24,7 @@ html, body {
 }
 
 #side-bar ul{
-  font-size: 12px;
+  font-size: 14px;
   font-family: century gothic, century, serif;
 }
 
@@ -32,12 +32,11 @@ html, body {
   display: block;
   padding: 7px 50px;
   margin-left: -40px;
-  font-size: 15px;
 }
-/*
+
 #side-bar li.clicked, li:hover {
   background: #EBF5FB;
-}*/
+}
 
 #side-bar img{
   display: block;
@@ -59,11 +58,6 @@ html, body {
   background-color:#2E2D2D;
   color: white;
   text-align: center;
-}
-
-#side-bar p{
-  padding: 0px 10px;
-  font-size: 15px;
 }
 
 /* chk-btn CSS from
@@ -93,16 +87,22 @@ input.chk-btn:checked + label {
   background: #EBF5FB;
 }
 
-#overlays li{
-  margin-left: 10px;
-  width: 100px;
-  padding:1px 40px;
+#overlays button{
+  margin: 0px auto;
+  padding:10px 40px;
+  background-color:white;
+  text-decoration: none;
+  border:none;
 }
 
-#overlays li:hover{
+
+#overlays button:hover, button:active{
   box-shadow: 0px 1px 3px;
-  background: #EBF5FB;
+  background-color: #EBF5FB;
+  padding:10px 40px;
+  text-decoration: none;
 }
+
 
 #copyright{
   margin-left: 2px;
