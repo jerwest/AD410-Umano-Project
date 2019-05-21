@@ -385,7 +385,9 @@
         "description": "<strong>Office</strong><br>",		
 		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
          "marker-size": "small",
-        "marker-color": "#ace"
+        "marker-color": "#ace",
+         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
+       
          
         
 	}
