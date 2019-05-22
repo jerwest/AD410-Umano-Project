@@ -69,31 +69,33 @@ function loadMarkers() {
         var titleText = val['properties']['title']
         var descriptionText = val['properties']['description']
         var directions = val['properties']['url']
+        var colors = val['properties']['marker-color']
+          //var url = "http://maps.google.com/mapfiles/ms/icons/";
+
+      //url += colors + "-dot.png";
         var marker = new google.maps.Marker({
+          
           position: point,
+            icon : colors,
+            
             /********* fix highliting hover on pin ***********/
           //title: titleText,
           map: map,
-          animation: google.maps.Animation.DROP,
-          properties: val['properties']
+        
+            
+        //  animation: google.maps.Animation.DROP,
+          //properties: val['properties']
+            
          });
-		  /********zoom In marker ****/
-		   map.addListener('center_changed', function() {
-          // 3 seconds after the center of the map has changed, pan back to the
-          // marker.
-			   /*** zoom in timeout function ***/
-			   /*
-          window.setTimeout(function() {
-            map.panTo(marker.getPosition());
-
-          }, 3000);
-		  */
-        });
-/***** zoom in map double click function ******/
-           marker.addListener('dblclick',function(){
-         map.setZoom(12);
-         map.setCenter(marker.getPosition)
-     })
+		
+/***** zoom in map double click function with timeout  ******/
+        
+          google.maps.event.addListener(marker,'dblclick',function() {
+  var pos = map.getZoom();
+  map.setZoom(13);
+  map.setCenter(marker.getPosition());
+ 
+}); 
 
 /***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href = "' + directions + '"><br>Get Directions</a>'
@@ -104,6 +106,7 @@ function loadMarkers() {
               infoWindow.setContent(markerInfo)
               infoWindow.open(map, marker)
 			            });
+          
         markers.push(marker)
       });
   });
@@ -114,7 +117,10 @@ function initMap() {
     bikeLayer = new google.maps.BicyclingLayer();
     map_options = {
       zoom: 10,
+        
       center: {lat: 47.700578, lng: -122.325019}
+        
+         
     }
 
     map_document = document.getElementById('map')

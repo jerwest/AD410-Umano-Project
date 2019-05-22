@@ -254,7 +254,7 @@
 			"description":"<strong>Single-Family</strong><br>",
 			"title":"9328 63rd Place West<br> Mukilteo, WA 98275<br>Bed: 4 <br>Baths: 3.5<br> Sq.Ft: 3420<br> Stories: 2",
 			"marker-size": "small",
-            "marker-color": "#ace",
+            
             "url": "https://goo.gl/maps/JWcEVH291cdms31f6"
 		}
 	}, {
@@ -409,7 +409,7 @@
         "description": "<strong>Office</strong><br>",		
 		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
          "marker-size": "small",
-        "marker-color": "#ace",
+        
         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
        
         
@@ -428,6 +428,7 @@
 		"condo_townhome": false,
 		"retail": false,
 		"office": false,
+        
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
 		"marker-size": "small",
