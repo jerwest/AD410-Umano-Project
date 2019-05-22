@@ -90,10 +90,11 @@ function loadMarkers() {
 		
 /***** zoom in map double click function with timeout  ******/
         
-          google.maps.event.addListener(marker,'dblclick',function() {
+  google.maps.event.addListener(marker,'dblclick',function() {
   var pos = map.getZoom();
   map.setZoom(13);
   map.setCenter(marker.getPosition());
+  window.setTimeout(function() {map.setZoom(pos);},5000);
  
 }); 
 
