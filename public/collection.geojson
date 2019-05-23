@@ -1,3 +1,4 @@
+/* throwawayline */
 {
 	"type": "FeatureCollection",
 	"features": [{
@@ -287,7 +288,7 @@
 			"retail": true,
 			"office": true,
 			"description": "<strong>Retail</strong> <br>",
-            
+
 			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
 			"marker-size": "small",
             "url": "https://goo.gl/maps/jwFCW6Rzr7LSm2tA8"
@@ -406,15 +407,15 @@
 		"condo_townhome": false,
 		"retail": true,
 		"office": true,
-        "description": "<strong>Office</strong><br>",		
+        "description": "<strong>Office</strong><br>",
 		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
          "marker-size": "small",
         "marker-color": "#ace",
         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
-       
-        
-         
-        
+
+
+
+
 	}
 }, {
 	"type": "Feature",
@@ -449,7 +450,7 @@
 		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
 		"marker-size": "small",
         "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
-        
+
 	}
 	}]
 }
