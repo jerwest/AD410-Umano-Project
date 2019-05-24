@@ -288,7 +288,7 @@
 			"office": false,
 			"description": "<strong>Retail</strong> <br>",
 
-			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Units: 3<br>Baths: 3<br>Sq.Ft: 2400<br>Stories: 1",
 			"marker-size": "small",
             "url": "https://goo.gl/maps/jwFCW6Rzr7LSm2tA8"
 		}
@@ -407,9 +407,9 @@
 		"retail": false,
 		"office": true,
         "description": "<strong>Office</strong><br>",
-		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
+		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036<br>Units : 10<br>Baths: 2<br>Sq.Ft: 1500<br>Stories: 2",
          "marker-size": "small",
-        "marker-color": "#00FF00",
+        "marker-color": "#0000FF",
         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
 
 
