@@ -285,7 +285,7 @@
 			"multi_family": false,
 			"condo_townhome": false,
 			"retail": true,
-			"office": true,
+			"office": false,
 			"description": "<strong>Retail</strong> <br>",
 
 			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
@@ -404,12 +404,12 @@
 		"single_family": false,
 		"multi_family": false,
 		"condo_townhome": false,
-		"retail": true,
+		"retail": false,
 		"office": true,
         "description": "<strong>Office</strong><br>",
 		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
          "marker-size": "small",
-        "marker-color": "#ace",
+        "marker-color": "#00FF00",
         "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
 
 
