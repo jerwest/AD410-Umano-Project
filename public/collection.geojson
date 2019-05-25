@@ -448,6 +448,7 @@
 		"description": "<strong>Multi-Family</strong><br>",
 		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
 		"marker-size": "small",
+        "marker-color": "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
         "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
 
 	}

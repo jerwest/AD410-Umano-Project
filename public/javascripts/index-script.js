@@ -69,11 +69,17 @@ function loadMarkers() {
         var titleText = val['properties']['title']
         var descriptionText = val['properties']['description']
         var directions = val['properties']['url']
+        var colors = val['properties']['marker-color']
         var marker = new google.maps.Marker({
           position: point,
             /********* fix highliting hover on pin ***********/
           //title: titleText,
           map: map,
+            icon: {
+
+      url: colors
+
+    },
           animation: google.maps.Animation.DROP,
           properties: val['properties']
          });
