@@ -4,7 +4,7 @@
 * element that contains the map. */
 #map {
   height: 100%;
-  width: 75%;
+  width: 80%;
   float: right;
 
 }
@@ -17,7 +17,7 @@ html, body {
 
 #side-bar {
   height: 100%;
-  width: 25%;
+  width: 20%;
   float: left;
   background-color: #white;
   font-family: century gothic, century, serif;
@@ -30,13 +30,14 @@ html, body {
 
 #side-bar li{
   display: block;
-  padding: 7px 50px;
+  padding: 10px 30px;
   margin-left: -40px;
 }
-/*
+
 #side-bar li.clicked, li:hover {
+  padding: 5% 47%;
   background: #EBF5FB;
-}*/
+}
 
 #side-bar img{
   display: block;
@@ -60,12 +61,16 @@ html, body {
   text-align: center;
 }
 
+#side-bar p{
+  padding: 0px 30px;
+}
+
 /* chk-btn CSS from
 http://stackoverflow.com/questions/30100978/how-to-make-a-check-button-hidden-checkbox-with-label-as-a-button-css-only
 */
 
 .chk-btn {
-    width: 50px;
+
 }
 
 input.chk-btn {
@@ -77,38 +82,27 @@ input.chk-btn + label {
 }
 
 input.chk-btn:not(:checked) + label:hover {
-  box-shadow: 0px 1px 3px;
+/*  box-shadow: 0px 1px 3px;*/
   background: #EBF5FB
+
 }
 
 input.chk-btn + label:active,
 input.chk-btn:checked + label {
-  box-shadow: 0px 0px 1px inset;
+
+  padding: 5% 50%;
   background: #EBF5FB;
 }
 
-#overlays button{
-  margin: 0px auto;
-  padding:10px 40px;
-  background-color:white;
-  text-decoration: none;
-  border:none;
-}
-
-
-#overlays button:hover, button:focus{
-  box-shadow: 0px 1px 3px;
-  background: #EBF5FB;
-  text-decoration: none;
-  border-color: #ccc;
-  outline:0;
+#overlays li{
+  padding: 5px 40px;
 }
 
 #copyright{
-  margin-left: 2px;
+  margin-left: 1px;
   position:bottom;
-  font-size: 9px;
-  position:absolute;
+  font-size: 7px;
+  position: fixed;
   bottom:1px;
   font-family: times, serif;
 }

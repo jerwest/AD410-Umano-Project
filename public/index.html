@@ -19,7 +19,7 @@
         </div>
         <div id="map" onload="initMap()"></div>
             <div id="side-bar">
-                <!-- <div id="buttons"> -->
+                
                 <a href="https://www.umanopm.com/"><img src="images/logo.jpg" alt="logo"></a>
 
                 <h2>Property Types</h2>
@@ -53,24 +53,22 @@
                         <input type="checkbox" name="filter" id="former" class='chk-btn'>
                         <label for='former'>Former</label>
                     </li>
-                    <li>
-                        <input type="checkbox" name="filter" id="all" class='chk-btn'>
-                        <label for='all'>All Properties</label>
-                    </li>
+
                   </strong>
                 </ul>
 
                 <h2>Overlays</h2>
                 <div id="overlays">
                   <ul>
-                    <li>
-                      <button onclick="trafficToggle()"><strong>Traffic</strong></button>
+                    <li onclick="trafficToggle()">
+                      <p><strong>Traffic</strong></p>
                     </li>
-                      <li>
-                        <button onclick="bikeToggle()"><strong>Bicycle</strong></button>
+                      <li onclick="bikeToggle()">
+                        <p><strong>Bicycle</strong></p>
                       </li>
                   </ul>
                 </div> <!--end overlays div-->
+                <h2>Update Properties</h2>
 
 	              <div  id ="copyright">
                   <span> &#9400;Copyright © 2019 Umano Property Management. All Rights Reserved.</span>
