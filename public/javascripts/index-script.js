@@ -99,7 +99,7 @@ function loadMarkers() {
 		  */
         });
 /***** zoom in map double click function ******/
-          google.maps.event.addListener(marker,'click',function() {
+          google.maps.event.addListener(marker,'dblclick',function() {
   var pos = map.getZoom();
   map.setZoom(13);
   map.setCenter(marker.getPosition());
