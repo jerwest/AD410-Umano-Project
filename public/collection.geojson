@@ -506,6 +506,45 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
+			"coordinates": [47.653878 , -122.347657]
+		},
+		"properties": {
+			"single_family": false,
+			"multi_family": true,
+			"condo_townhome": false,
+			"retail": false,
+			"office": false,
+			"former": false,
+			"description": "<strong>Multi-Family</strong><br>",
+			"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+	        "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.69953, -122.32568]
+		},
+		"properties": {
+			"single_family": false,
+			"multi_family": false,
+			"condo_townhome": false,
+			"retail": false,
+			"office": true,
+			"former": false,
+			"description": "<strong>Umano Offices</strong><br>",
+			"title": "9750 3rd Ave NE #425<br> Seattle, WA 98115",
+			"marker-size": "small",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_white.png",
+	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
+			}
+		},
+			{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
 			"coordinates": [47.692830562, -122.333332]
 		},
 		"properties": {
