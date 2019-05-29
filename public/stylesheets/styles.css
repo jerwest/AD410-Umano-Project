@@ -77,7 +77,7 @@ input.chk-btn {
   display: none;
 }
 input.chk-btn + label {
-  padding: 5px 40px;
+  padding: 5px 30px;
   cursor: pointer;
 }
 
@@ -90,9 +90,9 @@ input.chk-btn:not(:checked) + label:hover {
 input.chk-btn + label:active,
 input.chk-btn:checked + label {
 
-  padding: 5% 54% 5% 3%;
+  padding: 2% 54% 4% 3%;
   background: #EBF5FB;
-  margin-bottom:2px;
+
 }
 
 #overlays li{

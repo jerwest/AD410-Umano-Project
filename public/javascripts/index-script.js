@@ -143,7 +143,7 @@ function initMap() {
 
 }
 
-
+/* Night Mode*/
 var styles = {
         default: null,
         night: [
