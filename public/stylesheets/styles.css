@@ -24,7 +24,7 @@ html, body {
 }
 
 #side-bar ul{
-  font-size: 14px;
+  font-size: 13px;
   font-family: century gothic, century, serif;
 }
 
@@ -32,6 +32,7 @@ html, body {
   display: block;
   padding: 10px 30px;
   margin-left: -40px;
+  border-bottom: .5px solid #F8F9F9;
 }
 
 #side-bar li.clicked, li:hover {
@@ -77,7 +78,7 @@ input.chk-btn {
   display: none;
 }
 input.chk-btn + label {
-  padding: 5px 30px;
+  padding: 5px 20px;
   cursor: pointer;
 }
 
@@ -90,8 +91,8 @@ input.chk-btn:not(:checked) + label:hover {
 input.chk-btn + label:active,
 input.chk-btn:checked + label {
 
-  padding: 2% 54% 4% 3%;
-  background: #EBF5FB;
+/*  padding: 2% 54% 4% 3%;
+  background: #EBF5FB;*/
 
 }
 
