@@ -532,12 +532,12 @@
 			"multi_family": false,
 			"condo_townhome": false,
 			"retail": false,
-			"office": true,
+			"office": false,
 			"former": false,
 			"description": "<strong>Umano Offices</strong><br>",
 			"title": "9750 3rd Ave NE #425<br> Seattle, WA 98115",
 			"marker-size": "small",
-	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_white.png",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blackU.png",
 	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
 			}
 		},

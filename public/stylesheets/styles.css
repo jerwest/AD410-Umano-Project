@@ -32,7 +32,8 @@ html, body {
   display: block;
   padding: 10px 30px;
   margin-left: -40px;
-  border-bottom: .5px solid #F8F9F9;
+  border-bottom: .5px solid #ddd;
+  
 }
 
 #side-bar li.clicked, li:hover {
@@ -100,12 +101,13 @@ input.chk-btn:checked + label {
   padding: 5px 40px;
 }
 
-#copyright{
+#copyright {
   margin-left: 1px;
+  padding-top:10px;
   position:bottom;
-  font-size: 7px;
-  position: fixed;
-  bottom:1px;
+  font-size: 9px;
+  /*position: fixed;
+  bottom:1px;*/
   font-family: times, serif;
 }
 
