@@ -7,7 +7,7 @@ var styleSelector= {}
 
 
 // start out with filter features set to false, so no filtering happens by default
-var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false}
+var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false, former:false}
 // throwawayline
 $(function () {
     $('input[name=filter]').change(function (e) {
@@ -143,7 +143,7 @@ function initMap() {
 
 }
 
-
+/* Night Mode*/
 var styles = {
         default: null,
         night: [
