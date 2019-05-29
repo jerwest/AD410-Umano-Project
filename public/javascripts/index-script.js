@@ -6,6 +6,7 @@ var styleControl = {}
 var styleSelector= {}
 
 
+
 // start out with filter features set to false, so no filtering happens by default
 var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false, former:false}
 // throwawayline
@@ -230,6 +231,7 @@ var styles = {
 
 /* Overlays */
 function trafficToggle(){
+
   if(trafficLayer.getMap() == null){
         trafficLayer.setMap(map);
     } else {
@@ -237,13 +239,21 @@ function trafficToggle(){
     }
 }
 function bikeToggle(){
+
   if(bikeLayer.getMap() == null){
         bikeLayer.setMap(map);
     } else {
         bikeLayer.setMap(null);
     }
 }
-
+/*
+$(document).ready(function(){
+  $("li").toggle(
+    function(){$("li").css({"background": "#EBF5FB"});},
+    function(){$("li").css({"background": "white"});
+  });
+});
+*/
 
 
 google.maps.event.addDomListener(window, 'load', initMap);
