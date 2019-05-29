@@ -99,10 +99,12 @@ function loadMarkers() {
 		  */
         });
 /***** zoom in map double click function ******/
-           marker.addListener('dblclick',function(){
-         map.setZoom(12);
-         map.setCenter(marker.getPosition)
-     })
+          google.maps.event.addListener(marker,'click',function() {
+  var pos = map.getZoom();
+  map.setZoom(13);
+  map.setCenter(marker.getPosition());
+  window.setTimeout(function() {map.setZoom(pos);},5000);
+}); 
 
 /***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href = "' + directions + '"><br>Get Directions</a>'
