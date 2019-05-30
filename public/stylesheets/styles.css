@@ -4,7 +4,7 @@
 * element that contains the map. */
 #map {
   height: 100%;
-  width: 78%;
+  width: 77%;
   float: right;
 
 }
@@ -17,7 +17,7 @@ html, body {
 
 #side-bar {
   height: 100%;
-  width: 22%;
+  width: 23%;
   float: left;
   background-color: #white;
   font-family: century gothic, century, serif;
