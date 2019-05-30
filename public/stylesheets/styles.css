@@ -120,6 +120,16 @@ input.chk-btn:not(:checked) + label:hover {
   padding: 5px 40px;
 }
 
+#update form{
+  font-size:12px;
+  padding-left:30px;
+  margin-top:5px;
+}
+#update form input, select{
+  margin-top:3px;
+  margin-bottom:2px;
+}
+
 #copyright {
   padding-top:30px;
   position:bottom;

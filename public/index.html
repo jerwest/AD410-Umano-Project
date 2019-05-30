@@ -90,16 +90,62 @@
                   </ul>
                 </div> <!--end overlays div-->
                 <h2>Update Properties</h2>
+                <div id="update">
+                  <form >  <!--NEEDS ACTION!!!-->
+                    Property Name:<br>
+                    <input type="text" name="property_name">
+                    <br>
+                    Street Address:<br>
+                    <input type="text" name="street_address"><br>
+                    City:<br>
+                    <input type="text" name="city"><br>
+                    State:<br>
+                    <input type="text" name="state"><br>
+                    Zip:<br>
+                    <input type="text" name="zip"><br>
+
+                    Property Type:<br>
+                    <select name="property type">
+                      <option value="single-family">single-family</option>
+                      <option value="multi-family">multi-family</option>
+                      <option value="condo/townhome">condo/townhome</option>
+                      <option value="office">office</option>
+                      <option value="retail">retail</option>
+                      <option value="former">former</option>
+                    </select><br>
+                    Building Type:<br>
+                    <select name="building type">
+                      <option value="residential">residential</option>
+                      <option value="commercial">commercial</option>
+                    </select><br>
+
+                    ID:<br>
+                    <input type="id" name="id" value="6 digits"><br>
+                    Bedrooms:<br>
+                    <input type="bedrooms" name="bedrooms" value="# of bedrooms"><br>
+                    Units:<br>
+                    <input type="units" name="units" value="# of units"><br>
+                    Baths:<br>
+                    <input type="baths" name="baths" value="# of baths"><br>
+                    Sq.Ft:<br>
+                    <input type="sq_ft" name="sq_ft" value="# of sq-ft"><br>
+                    Levels:<br>
+                    <input type="levels" name="levels" value="# of levels"><br>
+                    <br>
+                    <input type="submit" value="+ ADD">
+                  </form>
+                </div>  <!--end update div-->
+
+	              <div  id ="copyright">
+                  <p> &#9400;Copyright 2019 <br> Umano Property Management. <br> All Rights Reserved.</p>
+                </div> <!-- end copyright div-->
+
                 <div id="style-selector-control"  class="map-control">
                   <select id="style-selector" class="selector-control">
                     <option value="default">Default</option>
                     <option value="night">Night mode</option>
                   </select>
-                </div>
-
-	              <div  id ="copyright">
-                  <p> &#9400;Copyright 2019 <br> Umano Property Management. <br> All Rights Reserved.</p>
-                </div> <!-- end copyright div-->
+                </div> <!--end nightmode div-->
 
         </div> <!--end sidebar div-->
 
