@@ -3,7 +3,7 @@
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
 #map {
-  height: 115%;
+  height: 100%;
   width: 77%;
   float: right;
 
@@ -118,6 +118,16 @@ input.chk-btn:not(:checked) + label:hover {
 
 #overlays li{
   padding: 5px 40px;
+}
+
+#update form{
+  font-size:12px;
+  padding-left:30px;
+  margin-top:5px;
+}
+#update form input, select{
+  margin-top:3px;
+  margin-bottom:2px;
 }
 
 #copyright {
