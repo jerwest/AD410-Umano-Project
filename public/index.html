@@ -14,12 +14,7 @@
         <!-- throwawayline -->
     </head>
     <body>
-        <div id="style-selector-control"  class="map-control">
-          <select id="style-selector" class="selector-control">
-            <option value="default">Default</option>
-            <option value="night">Night mode</option>
-          </select>
-        </div>
+
         <div id="map" onload="initMap()"></div>
             <div id="side-bar">
 
@@ -28,38 +23,53 @@
                 <h2>Property Types</h2>
                 <ul>
                   <strong>
-                    <li>
-                      <i class="material-icons" style="color:blue">place</i>
-                      <input type="checkbox" name="filter" id="single_family" class='chk-btn'>
-                      <label for='single_family'>Single-Family</label>
-                    </li>
+                    <div class="single">
+                      <li>
+                        <i class="material-icons" style="color:blue">place</i>
+                        <input type="checkbox" name="filter" id="single_family" class='chk-btn'>
+                        <label for='single_family'>Single-Family</label>
+                      </li>
+                    </div> <!--end div single-->
 
-                    <li>
-                      <i class="material-icons" style="color:orange">place</i>
-                      <input type="checkbox" name="filter" id="multi_family"  class='chk-btn'>
-                      <label for='multi_family'>Multi-Family</label>
-                    </li>
+                    <div class="multi">
+                      <li>
+                        <i class="material-icons" style="color:orange">place</i>
+                        <input type="checkbox" name="filter" id="multi_family"  class='chk-btn'>
+                        <label for='multi_family'>Multi-Family</label>
+                      </li>
+                    </div> <!--end div multi-->
 
-                    <li>
-                      <i class="material-icons" style="color:green">place</i>
-                      <input type="checkbox" name="filter" id="condo_townhome" class='chk-btn'>
-                      <label for='condo_townhome'>Condo/Townhome</label>
-                    </li>
-                    <li>
-                      <i class="material-icons" style="color:purple">place</i>
-                      <input type="checkbox" name="filter" id="retail" class='chk-btn'>
-                      <label for='retail'>Retail</label>
-                    </li>
-                    <li>
-                      <i class="material-icons" style="color:red">place</i>
-                      <input type="checkbox" name="filter" id="office" class='chk-btn'>
-                      <label for='office'>Office</label>
-                    </li>
-                    <li>
-                      <i class="material-icons" style="color:grey">place</i>
-                      <input type="checkbox" name="filter" id="former" class='chk-btn'>
-                      <label for='former'>Former Property</label>
-                    </li>
+                    <div class="condo">
+                      <li>
+                        <i class="material-icons" style="color:green">place</i>
+                        <input type="checkbox" name="filter" id="condo_townhome" class='chk-btn'>
+                        <label for='condo_townhome'>Condo/Townhome</label>
+                      </li>
+                    </div> <!--end div condo-->
+
+                    <div class="retail">
+                      <li>
+                        <i class="material-icons" style="color:purple">place</i>
+                        <input type="checkbox" name="filter" id="retail" class='chk-btn'>
+                        <label for='retail'>Retail</label>
+                      </li>
+                    </div> <!--end div retail-->
+
+                    <div class="office">
+                      <li>
+                        <i class="material-icons" style="color:red">place</i>
+                        <input type="checkbox" name="filter" id="office" class='chk-btn'>
+                        <label for='office'>Office</label>
+                      </li>
+                    </div> <!--end div office-->
+
+                    <div class="former">
+                      <li>
+                        <i class="material-icons" style="color:grey">place</i>
+                        <input type="checkbox" name="filter" id="former" class='chk-btn'>
+                        <label for='former'>Former</label>
+                      </li>
+                    </div> <!--end div former-->
 
                   </strong>
                 </ul>
@@ -80,6 +90,12 @@
                   </ul>
                 </div> <!--end overlays div-->
                 <h2>Update Properties</h2>
+                <div id="style-selector-control"  class="map-control">
+                  <select id="style-selector" class="selector-control">
+                    <option value="default">Default</option>
+                    <option value="night">Night mode</option>
+                  </select>
+                </div>
 
 	              <div  id ="copyright">
                   <p> &#9400;Copyright 2019 Umano Property Management.</p>

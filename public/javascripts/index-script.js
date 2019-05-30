@@ -251,14 +251,14 @@ function bikeToggle(){
 
 $(document).ready(function(){
   $("#overlays #traffic li").toggle(
-    function(){$("#overlays #traffic li").css({"background": "#EBF5FB"});},
+    function(){$("#overlays #traffic li").css({"background": "#F2F4F4"});},
     function(){$("#overlays #traffic li").css({"background": "white"});
   });
 });
 
 $(document).ready(function(){
   $("#overlays #bike li").toggle(
-    function(){$("#overlays #bike li").css({"background": "#EBF5FB"});},
+    function(){$("#overlays #bike li").css({"background": "#F2F4F4"});},
     function(){$("#overlays #bike li").css({"background": "white"});
   });
 });
