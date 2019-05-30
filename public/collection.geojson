@@ -540,8 +540,7 @@
 	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blackU.png",
 	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
 			}
-		},
-			{
+		},{
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",

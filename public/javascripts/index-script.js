@@ -6,6 +6,7 @@ var styleControl = {}
 var styleSelector= {}
 
 
+
 // start out with filter features set to false, so no filtering happens by default
 var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false, former:false}
 // throwawayline
@@ -105,7 +106,7 @@ function loadMarkers() {
   map.setZoom(13);
   map.setCenter(marker.getPosition());
   window.setTimeout(function() {map.setZoom(pos);},5000);
-}); 
+});
 
 /***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href =  "' + directions + '" target="_blank" ><br>Get Directions</a>'
@@ -233,6 +234,7 @@ var styles = {
 
 /* Overlays */
 function trafficToggle(){
+
   if(trafficLayer.getMap() == null){
         trafficLayer.setMap(map);
     } else {
@@ -240,6 +242,7 @@ function trafficToggle(){
     }
 }
 function bikeToggle(){
+
   if(bikeLayer.getMap() == null){
         bikeLayer.setMap(map);
     } else {
@@ -247,6 +250,19 @@ function bikeToggle(){
     }
 }
 
+$(document).ready(function(){
+  $("#overlays #traffic li").toggle(
+    function(){$("#overlays #traffic li").css({"background": "#F2F4F4"});},
+    function(){$("#overlays #traffic li").css({"background": "white"});
+  });
+});
+
+$(document).ready(function(){
+  $("#overlays #bike li").toggle(
+    function(){$("#overlays #bike li").css({"background": "#F2F4F4"});},
+    function(){$("#overlays #bike li").css({"background": "white"});
+  });
+});
 
 
 google.maps.event.addDomListener(window, 'load', initMap);
