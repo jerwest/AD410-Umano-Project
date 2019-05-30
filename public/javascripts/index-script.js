@@ -105,7 +105,7 @@ function loadMarkers() {
   map.setZoom(13);
   map.setCenter(marker.getPosition());
   window.setTimeout(function() {map.setZoom(pos);},5000);
-}); 
+});
 
 /***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href = "' + directions + '"><br>Get Directions</a>'
@@ -248,14 +248,20 @@ function bikeToggle(){
         bikeLayer.setMap(null);
     }
 }
-/*
+
 $(document).ready(function(){
-  $("li").toggle(
-    function(){$("li").css({"background": "#EBF5FB"});},
-    function(){$("li").css({"background": "white"});
+  $("#overlays #traffic li").toggle(
+    function(){$("#overlays #traffic li").css({"background": "#EBF5FB"});},
+    function(){$("#overlays #traffic li").css({"background": "white"});
   });
 });
-*/
+
+$(document).ready(function(){
+  $("#overlays #bike li").toggle(
+    function(){$("#overlays #bike li").css({"background": "#EBF5FB"});},
+    function(){$("#overlays #bike li").css({"background": "white"});
+  });
+});
 
 
 google.maps.event.addDomListener(window, 'load', initMap);
