@@ -51,8 +51,9 @@ var filter_markers = function() {
 var map_filter = function(id_val) {
    if (filters[id_val])
       filters[id_val] = false
-   else
+    else
       filters[id_val] = true
+  
 }
 
 
@@ -99,7 +100,7 @@ function loadMarkers() {
 		  */
         });
 /***** zoom in map double click function ******/
-          google.maps.event.addListener(marker,'dblclick',function() {
+  google.maps.event.addListener(marker,'dblclick',function() {
   var pos = map.getZoom();
   map.setZoom(13);
   map.setCenter(marker.getPosition());
@@ -107,7 +108,7 @@ function loadMarkers() {
 }); 
 
 /***** calling back data to display *********/
-        var markerInfo =descriptionText+titleText + '<a href = "' + directions + '"><br>Get Directions</a>'
+        var markerInfo =descriptionText+titleText + '<a href =  "' + directions + '" target="_blank" ><br>Get Directions</a>'
 
 
         marker.addListener('click', function() {
