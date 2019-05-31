@@ -9,7 +9,7 @@ var styleSelector= {}
 
 // start out with filter features set to false, so no filtering happens by default
 var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false, former:false}
-// throwawayline
+
 $(function () {
     $('input[name=filter]').change(function (e) {
      map_filter(this.id);
@@ -109,6 +109,8 @@ function loadMarkers() {
           }, 3000);
 		  */
         });
+
+
 /***** zoom in map double click function ******/
   google.maps.event.addListener(marker,'dblclick',function() {
   var pos = map.getZoom();
@@ -117,9 +119,9 @@ function loadMarkers() {
   window.setTimeout(function() {map.setZoom(pos);},5000);
 });
 
+
 /***** calling back data to display *********/
         var markerInfo =descriptionText+titleText + '<a href =  "' + directions + '" target="_blank" ><br>Get Directions</a>'
-
 
         marker.addListener('click', function() {
               infoWindow.close()
@@ -144,17 +146,9 @@ function initMap() {
     map_document = document.getElementById('map')
     map = new google.maps.Map(map_document,map_options);
 
-    // styleControl = document.getElementById('style-selector-control');
-    // map.controls[google.maps.ControlPosition.TOP_RIGHT].push(styleControl);
-    //
-    // styleSelector = document.getElementById('style-selector');
-    // map.setOptions({styles: styles[styleSelector.value]});
-    //
-    // styleSelector.addEventListener('change', function() {
-    // map.setOptions({styles: styles[styleSelector.value]});
-    // });
+} /*End function init map()*/
 
-}
+
 
 /* Night Mode*/
 var styles = {
@@ -243,15 +237,14 @@ var styles = {
 
 /* Overlays */
 function trafficToggle(){
-
   if(trafficLayer.getMap() == null){
         trafficLayer.setMap(map);
     } else {
         trafficLayer.setMap(null);
     }
 }
-function bikeToggle(){
 
+function bikeToggle(){
   if(bikeLayer.getMap() == null){
         bikeLayer.setMap(map);
     } else {
@@ -269,7 +262,8 @@ function nightModeToggle(){
     map.setOptions({styles:styles.default});
     }
   }
-
+  
+/*Overlays background-color toggle*/
 $(document).ready(function(){
   $("#overlays #traffic li").toggle(
     function(){$("#overlays #traffic li").css({"background": "#F2F4F4"});},
