@@ -144,15 +144,15 @@ function initMap() {
     map_document = document.getElementById('map')
     map = new google.maps.Map(map_document,map_options);
 
-    styleControl = document.getElementById('style-selector-control');
-    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(styleControl);
-
-    styleSelector = document.getElementById('style-selector');
-    map.setOptions({styles: styles[styleSelector.value]});
-
-    styleSelector.addEventListener('change', function() {
-    map.setOptions({styles: styles[styleSelector.value]});
-    });
+    // styleControl = document.getElementById('style-selector-control');
+    // map.controls[google.maps.ControlPosition.TOP_RIGHT].push(styleControl);
+    //
+    // styleSelector = document.getElementById('style-selector');
+    // map.setOptions({styles: styles[styleSelector.value]});
+    //
+    // styleSelector.addEventListener('change', function() {
+    // map.setOptions({styles: styles[styleSelector.value]});
+    // });
 
 }
 
@@ -259,6 +259,17 @@ function bikeToggle(){
     }
 }
 
+var nightModeEnable = false
+function nightModeToggle(){
+  nightModeEnable = !nightModeEnable
+  if (nightModeEnable){
+    map.setOptions({styles:styles.night});
+  }
+  else {
+    map.setOptions({styles:styles.default});
+    }
+  }
+
 $(document).ready(function(){
   $("#overlays #traffic li").toggle(
     function(){$("#overlays #traffic li").css({"background": "#F2F4F4"});},
@@ -270,6 +281,13 @@ $(document).ready(function(){
   $("#overlays #bike li").toggle(
     function(){$("#overlays #bike li").css({"background": "#F2F4F4"});},
     function(){$("#overlays #bike li").css({"background": "white"});
+  });
+});
+
+$(document).ready(function(){
+  $("#overlays #night li").toggle(
+    function(){$("#overlays #night li").css({"background": "#F2F4F4"});},
+    function(){$("#overlays #night li").css({"background": "white"});
   });
 });
 
