@@ -54,7 +54,7 @@ var map_filter = function(id_val) {
       filters[id_val] = false
     else
       filters[id_val] = true
-  
+
 }
 
 
@@ -88,6 +88,15 @@ function loadMarkers() {
           animation: google.maps.Animation.DROP,
           properties: val['properties']
          });
+         marker.addListener('click', toggleBounce);
+
+         function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
 		  /********zoom In marker ****/
 		   map.addListener('center_changed', function() {
           // 3 seconds after the center of the map has changed, pan back to the
