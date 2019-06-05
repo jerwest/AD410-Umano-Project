@@ -136,6 +136,7 @@ function loadMarkers() {
 function initMap() {
     trafficLayer = new google.maps.TrafficLayer();
     bikeLayer = new google.maps.BicyclingLayer();
+    
     map_options = {
       zoom: 10,
       center: {lat: 47.700578, lng: -122.325019}
@@ -262,7 +263,7 @@ function nightModeToggle(){
     map.setOptions({styles:styles.default});
     }
   }
-  
+
 /*Overlays background-color toggle*/
 $(document).ready(function(){
   $("#overlays #traffic li").toggle(
