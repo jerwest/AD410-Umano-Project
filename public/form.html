@@ -9,56 +9,86 @@
 
 
    <body>
-      <a href="index.html"><h2>Back to Map</h2></a>
-       <div id="update" align = center>
-           <h2 align = center>Property Update Form</h2>
-                  <form >  <!--NEEDS ACTION!!!-->
-                    Property Name:<br>
-                    <input type="text" name="property_name">
-                    <br>
-                    Street Address:<br>
-                    <input type="text" name="street_address"><br>
-                    City:<br>
-                    <input type="text" name="city"><br>
-                    State:<br>
-                    <input type="text" name="state"><br>
-                    Zip:<br>
-                    <input type="text" name="zip"><br>
 
-                    Property Type:<br>
-                    <select name="property type">
+       <div id="update">
+          <a href="index.html"><h2><i class="left"></i>Back to Map</h2></a>
+           <h2 align = center>Property Update Form</h2>
+                  <form>  <!--NEEDS ACTION!!!-->
+                    Property Name:
+                    <input  id="property_name" type="text" name="property_name">
+
+                    ID:
+                    <input type="id" name="id" placeholder="6 digits">
+                    <br><br>
+                    Street Address:
+                    <input type="text" name="street_address">
+                    City:
+                    <input type="text" name="city">
+
+                    State:
+                    <input type="text" name="state">
+                    Zip:
+                    <input type="text" name="zip">
+                    <br><br>
+
+                    Property Type:
+                    <select name="property type" class="property">
+                      <option value="select">select</option>
                       <option value="single-family">single-family</option>
                       <option value="multi-family">multi-family</option>
                       <option value="condo/townhome">condo/townhome</option>
                       <option value="office">office</option>
                       <option value="retail">retail</option>
-                      <option value="former">former</option>
-                    </select><br>
-                    Building Type:<br>
-                    <select name="building type">
+                      <option value="inactive">inactive</option>
+                    </select>
+                    Building Type:
+                    <select name="building type" class="building">
+                      <option value="select">select</option>
                       <option value="residential">residential</option>
                       <option value="commercial">commercial</option>
-                    </select><br>
+                    </select>
+                    <br><br>
 
-                    ID:<br>
-                    <input type="id" name="id" value="6 digits"><br>
-                    Bedrooms:<br>
-                    <input type="bedrooms" name="bedrooms" value="# of bedrooms"><br>
-                    Units:<br>
-                    <input type="units" name="units" value="# of units"><br>
-                    Baths:<br>
-                    <input type="baths" name="baths" value="# of baths"><br>
-                    Sq.Ft:<br>
-                    <input type="sq_ft" name="sq_ft" value="# of sq-ft"><br>
-                    Levels:<br>
-                    <input type="levels" name="levels" value="# of levels"><br>
-                    <br>
-                    <input type="submit" value="+ ADD">
-                      <input type="submit" value="EDIT">
-                      <input type="submit" value="SEARCH">
-                      <input type="submit" value="DELETE">
+                    Bedrooms:
+                    <input type="bedrooms" name="bedrooms" placeholder="# of bedrooms">
+                    Units:
+                    <input type="units" name="units" placeholder="# of units">
+                    Baths:
+                    <input type="baths" name="baths" placeholder="# of baths">
+                    <br><br>
+                    <!--
+                    Sq.Ft:
+                    <input type="sq_ft" name="sq_ft" placeholder="# of sq-ft">
+                    Levels:
+                    <input type="levels" name="levels" placeholder="# of levels">
+                     -->
+                    <br><br>
+
+                    <input onClick="submitClick()" type="submit" value="Add">
+
                   </form>
                 </div>  <!--end update div-->
+
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+            <script>
+              // Your web app's Firebase configuration
+              var firebaseConfig = {
+                apiKey: "AIzaSyDf6FmbTXVWyG6zpKRL7EaDWcIondVj2Q8",
+                authDomain: "umano-map.firebaseapp.com",
+                databaseURL: "https://umano-map.firebaseio.com",
+                projectId: "umano-map",
+                storageBucket: "umano-map.appspot.com",
+                messagingSenderId: "377702670139",
+                appId: "1:377702670139:web:bccc2e82ec11d320"
+              };
+              // Initialize Firebase
+              firebase.initializeApp(firebaseConfig);
+            </script>
+
+            <script src="javascripts/form.js"></script>
+            <script src="javascripts/index-script.js"></script>
    </body>
 
 </html>
