@@ -15,6 +15,22 @@ html, body {
   padding: 0;
 }
 
+h2{
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px auto;
+  background-color:#2E2D2D;
+  color: white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #2E2D2D;
+}
+
+
+
 #side-bar {
   height: 100%;
   width: 23%;
@@ -24,7 +40,7 @@ html, body {
   overflow: scroll;
 }
 ::-webkit-scrollbar {
-width: 10px;
+width: 12px;
 }
 ::-webkit-scrollbar-track {
 border: 1px solid #white;
@@ -121,13 +137,75 @@ input.chk-btn:not(:checked) + label:hover {
 }
 
 #update form{
-  font-size:12px;
+  font-size:16px;
   padding-left:30px;
-  margin-top:5px;
+  margin: 30px auto;
 }
-#update form input, select{
+
+#update form h2{
+  font-size:15px;
+}
+#update form input{
   margin-top:3px;
-  margin-bottom:2px;
+  margin-bottom:5px;
+  margin-right:5px;
+  padding:3px;
+}
+
+#update form select{
+  margin-top:3px;
+  margin-bottom:5px;
+  margin-right:5px;
+  padding:3px;
+}
+#update form select.property{
+  padding-right: 43px;
+}
+#update form select.building{
+  padding-right: 77px;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #5F6060;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:11px;
+}
+
+input[type=submit]:hover {
+  background-color: #2E2D2D;
+}
+
+::placeholder {
+  color: #BBB;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #BBB;
+}
+#UPDATE{
+  margin-left:-40px;
+  padding-left:15%;
+  font-size:14px;
+}
+#update i {
+  border: solid white;
+  color: white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 4px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 #copyright {
