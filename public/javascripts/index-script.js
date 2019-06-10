@@ -6,7 +6,6 @@ var styleControl = {}
 var styleSelector= {}
 
 
-
 // start out with filter features set to false, so no filtering happens by default
 var filters = {single_family:false, multi_family:false, condo_townhome:false, retail:false, office:false, former:false}
 
@@ -14,6 +13,7 @@ $(function () {
     $('input[name=filter]').change(function (e) {
      map_filter(this.id);
       filter_markers()
+      console.log(filters)
   });
 })
 
@@ -25,29 +25,36 @@ var get_set_options = function() {
       ret_array.push(option)
     }
   }
+  console.log(ret_array)
   return ret_array;
 }
 
 var filter_markers = function() {
   set_filters = get_set_options()
 
+
+
   // for each marker, check to see if all required options are set
   for (i = 0; i < markers.length; i++) {
     marker = markers[i];
-
     // start the filter check assuming the marker will be displayed
     // if any of the required features are missing, set 'keep' to false
     // to discard this marker
-    keep=true
-    mapset = map
-    for (opt=0; opt<set_filters.length; opt++) {
-      if (!marker.properties[set_filters[opt]]) {
-        keep = false;
+    keep=false
+    //mapset = map
+      for (opt=0; opt<set_filters.length; opt++) {
+        if (marker.properties[set_filters[opt]]) {
+          keep = true;
+        }
       }
+    if(set_filters.length == 0){
+        marker.setVisible(true)
+    }else{
+        marker.setVisible(keep)
     }
-    marker.setVisible(keep)
   }
 }
+
 
 var map_filter = function(id_val) {
    if (filters[id_val])
@@ -136,7 +143,7 @@ function loadMarkers() {
 function initMap() {
     trafficLayer = new google.maps.TrafficLayer();
     bikeLayer = new google.maps.BicyclingLayer();
-    
+
     map_options = {
       zoom: 10,
       center: {lat: 47.700578, lng: -122.325019}
