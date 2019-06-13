@@ -60,11 +60,9 @@ border-radius: 10px;
   display: block;
   padding: 10px 30px;
   margin-left: -40px;
-  /* margin-bottom:2px; */
 }
 
 #side-bar li.clicked, li:hover {
-  padding: 5% 47%;
   background: #F2F4F4;
 }
 
@@ -121,7 +119,7 @@ input.chk-btn {
   display: none;
 }
 input.chk-btn + label {
-  padding: 5% 20% 5% 5%;
+  padding: 5% 30% 5% 5%;
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
