@@ -60,7 +60,7 @@ border-radius: 10px;
   display: block;
   padding: 10px 30px;
   margin-left: -40px;
-  margin-bottom:2px;
+  /* margin-bottom:2px; */
 }
 
 #side-bar li.clicked, li:hover {
@@ -99,36 +99,39 @@ http://stackoverflow.com/questions/30100978/how-to-make-a-check-button-hidden-ch
 */
 
 .single input.chk-btn + label:active, .single input.chk-btn:checked + label{
-  padding: 5% 43% 5% 5%;
+  padding: 5% 30% 5% 5%;
 }
 .multi input.chk-btn + label:active, .multi input.chk-btn:checked + label{
-  padding: 5% 46% 5% 5%;
+  padding: 5% 30% 5% 5%;
 }
 .condo input.chk-btn + label:active, .condo input.chk-btn:checked + label{
-  padding: 5% 29% 5% 3%;
+  padding: 5% 30% 5% 5%;
 }
 .retail input.chk-btn + label:active, .retail input.chk-btn:checked + label{
-  padding: 7% 65% 5% 5% ;
+  padding: 5% 30% 5% 5%;
 }
 .office input.chk-btn + label:active, .office input.chk-btn:checked + label{
-  padding: 7% 63% 5% 5%;
+  padding: 5% 30% 5% 5%;
 }
 .former input.chk-btn + label:active, .former input.chk-btn:checked + label{
-  padding: 7% 60% 5% 5%;
+  padding: 5% 30% 5% 5%;
 }
 
 input.chk-btn {
   display: none;
 }
 input.chk-btn + label {
-  padding: 5px 20px;
+  padding: 5% 20% 5% 5%;
   cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
 }
 
 input.chk-btn + label:active,
-input.chk-btn:checked + label,
-input.chk-btn:not(:checked) + label:hover {
+input.chk-btn:checked + label {
   background: #F2F4F4;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #overlays li{
