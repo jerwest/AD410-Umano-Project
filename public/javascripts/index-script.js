@@ -134,6 +134,7 @@ function loadMarkers() {
               infoWindow.close()
               infoWindow.setContent(markerInfo)
               infoWindow.open(map, marker)
+              setTimeout(toggleBounce, 1500);
 			            });
         markers.push(marker)
       });
