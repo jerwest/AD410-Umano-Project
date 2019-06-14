@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+
+        <title>Umano Property Management</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="stylesheets/styles.css"	type="text/css" rel="stylesheet">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+
+    </head>
+    <body>
+
+        <div id="map" onload="initMap()"></div>
+            <div id="side-bar">
+
+                <a href="https://www.umanopm.com/"><img src="images/logo.jpg" alt="logo"></a>
+
+                <h2>Property Types</h2>
+                <ul>
+                  <strong>
+                    <div class="single">
+                      <li>
+                        <i class="material-icons" style="color:blue">place</i>
+                        <input type="checkbox" name="filter" id="single_family" class='chk-btn'>
+                        <label for='single_family'>Single-Family&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end single-->
+
+                    <div class="multi">
+                      <li>
+                        <i class="material-icons" style="color:orange">place</i>
+                        <input type="checkbox" name="filter" id="multi_family"  class='chk-btn'>
+                        <label for='multi_family'>Multi-Family&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end multi-->
+
+                    <div class="condo">
+                      <li>
+                        <i class="material-icons" style="color:green">place</i>
+                        <input type="checkbox" name="filter" id="condo_townhome" class='chk-btn'>
+                        <label for='condo_townhome'>Condo/Townhome&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end condo-->
+
+                    <div class="retail">
+                      <li>
+                        <i class="material-icons" style="color:purple">place</i>
+                        <input type="checkbox" name="filter" id="retail" class='chk-btn'>
+                        <label for='retail'>Retail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end retail-->
+
+                    <div class="office">
+                      <li>
+                        <i class="material-icons" style="color:red">place</i>
+                        <input type="checkbox" name="filter" id="office" class='chk-btn'>
+                        <label for='office'>Office&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end office-->
+
+                    <div class="former">
+                      <li>
+                        <i class="material-icons" style="color:grey">place</i>
+                        <input type="checkbox" name="filter" id="former" class='chk-btn'>
+                        <label for='former'>Former&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      </li>
+                    </div> <!--end former-->
+
+                  </strong>
+                </ul>
+
+                <h2>Overlays</h2>
+                <div id="overlays">
+                  <ul>
+                    <div id="traffic">
+                      <li onclick="trafficToggle()">
+                        <p><strong>Traffic</strong></p>
+                      </li>
+                    </div> <!--end traffic-->
+                    <div id="bike">
+                      <li onclick="bikeToggle()">
+                        <p><strong>Bicycle</strong></p>
+                      </li>
+                    </div> <!--end bicycle-->
+                    <div id="night">
+                      <li onclick="nightModeToggle()">
+                        <p><strong>Night</strong></p>
+                      </li>
+                    </div> <!--end nightmode-->
+                  </ul>
+                </div> <!--end overlays div-->
+
+                <h2>Update Properties</h2>
+                <div id="UPDATE">
+                  <ul>
+                    <li>
+                      <a href="form.html"><p><strong>Add</strong></p></a>
+                    </li>
+                    <!--
+                    <li>
+                      <a href="form.html"><p><strong>Update</strong></p></a>
+                    </li>
+                    -->
+                  </ul>
+                </div>  <!--end update div-->
+
+	              <div  id ="copyright">
+                  <p> &#9400;Copyright 2019 <br> Umano Property Management. <br> All Rights Reserved.</p>
+                </div> <!-- end copyright div-->
+
+        </div> <!--end sidebar div-->
+
+        <script
+            async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNaBtYnoSuBvswBuMwrnjRD-T7ZW2Z6W4">
+        </script>
+
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDf6FmbTXVWyG6zpKRL7EaDWcIondVj2Q8",
+            authDomain: "umano-map.firebaseapp.com",
+            databaseURL: "https://umano-map.firebaseio.com",
+            projectId: "umano-map",
+            storageBucket: "umano-map.appspot.com",
+            messagingSenderId: "377702670139",
+            appId: "1:377702670139:web:bccc2e82ec11d320"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+        </script>
+
+        <script src="javascripts/index-script.js"></script>
+
+    </body>
+
+</html>

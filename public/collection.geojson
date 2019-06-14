@@ -1,0 +1,442 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.605317, -122.292903]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "401 31st Ave<br> Seattle, WA 98122<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/hT4CE1bRz2jVKDL59"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.696563, -122.324161]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "411 NE 94th St<br> Seattle, WA 98115<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+
+             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/D3nBapfoaQruZTkx7"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.616734, -122.049723]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "806 217th Place Northeast<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/9ETrqhNHyxCZP4J89"
+		}
+		}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.620572, -122.198734]
+	},
+	"properties": {
+		"condo_townhome": true,
+		"property-type": "condo_townhome",
+		"description": "<strong>Condo/Townhome</strong><br>",
+		"title": "1100 106th Avenue Northeast #205<br>Bellevue, WA 98004<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
+        "url": "https://goo.gl/maps/1CTTttwP72s1Uipq6"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [48.007992, -122.106533]
+	},
+	"properties": {
+		"single_family": true,
+		"property-type": "single_family",
+		"description": "<strong>Single-Family</strong><br>",
+		"title": "1300 92nd Ave NE<br> Lake Stevens, WA 98258<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+        "url": "https://goo.gl/maps/S4whT1Qev9bmNPxP8"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.505121, -122.178819]
+	},
+	"properties": {
+		"multi_family": true,
+		"property-type": "multi_family",
+		"description": "<strong>Multi-Family</strong><br>",
+		"title": "1419 Kirkland Avenue Northeast<br> Renton, WA 98056<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+        "url": "https://goo.gl/maps/AkYef1NupppUgJHf7"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.66998, -122.377318]
+	},
+	"properties": {
+		"condo_townhome": true,
+		"property-type": "condo_townhome",
+		"description": "<strong>Condo/Townhome</strong><br>",
+		"title": "1525 NW 57th St #525<br> Seattle, WA 98107<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
+        "url": "https://goo.gl/maps/wY7w22j28ExLLvT58"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.703418, -122.336969]
+	},
+	"properties": {
+		"single_family": true,
+		"property-type": "single_family",
+		"description": "<strong>Single-Family</strong><br>",
+		"title": "1710 103rd St<br> Seattle, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+        "url": "https://goo.gl/maps/DUSehFpAWFSnHWSg9"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.613892, -122.34395]
+	},
+	"properties": {
+		"condo_townhome": true,
+		"property-type": "condo_townhome",
+		"description": "<strong>Condo/Townhome</strong><br>",
+		"title": "2201 3rd Avenue<br> Seattle, WA 98121<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
+        "url": "https://goo.gl/maps/m7VijgeXaV2C5c5u8"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.831166, -122.176762]
+	},
+	"properties": {
+		"single_family": true,
+		"property-type": "single_family",
+		"description": "<strong>Single-Family</strong><br>",
+		"title": "4120 183rd Place Southeast<br> Bothell, WA 98012<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+        "url": "https://goo.gl/maps/KvD6VZZUhoH5V4FA8"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.555938, -122.277854]
+	},
+	"properties": {
+		"single_family": true,
+		"property-type": "single_family",
+		"description": "<strong>Single-Family</strong><br>",
+		"title": "5037 S Bowen Place<br> Seattle, WA 98118<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+        "url": "https://goo.gl/maps/nFSGGTgdG6a6jWM77"
+	}
+
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.551711, -122.357385]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "5603 18th Avenue Southwest<br> Seattle, WA 98106<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/MWsg7FMixUsxsxoCA"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.692168, -122.338396]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "8613 Densmore Ave N<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/Zg94uLZVmCpnrHRV7"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.681413, -122.11962]
+		},
+		"properties": {
+			"condo_townhome": true,
+			"property-type": "condo_townhome",
+			"description": "<strong>Condo/Townhome</strong><br>",
+			"title": "8851 166th Ave NE #A101<br> Bellevue, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
+            "url": "https://goo.gl/maps/K7grZaVbLh7yK2n38"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.913092, -122.319925]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description":"<strong>Single-Family</strong><br>",
+			"title":"9328 63rd Place West<br> Mukilteo, WA 98275<br>Bed: 4 <br>Baths: 3.5<br> Sq.Ft: 3420<br> Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/JWcEVH291cdms31f6"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.715468, -122.103608]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "12834 176th Place Northeast<br> Redmond, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/H2w7ivDwuVQRgbs19"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.754259, -122.161496]
+		},
+		"properties": {
+			"retail": true,
+			"property-type": "retail",
+			"description": "<strong>Retail</strong> <br>",
+			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_purple.png",
+            "url": "https://goo.gl/maps/jwFCW6Rzr7LSm2tA8"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.756915, -122.350651]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong> Single-Family</strong><br>",
+			"title": "17536 Fremont Ave N<br> Shoreline, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/hzjEfLRHNvNnnCHE6"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.619707, -122.06143]
+		},
+		"properties": {
+			"single_family": true,
+			"property-type": "single_family",
+			"description": "<strong>Single-Family</strong><br>",
+			"title": "20823 Northeast Inglewood Hill Road<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
+            "url": "https://goo.gl/maps/BffwGhhG8pBrcyaa9"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.711699, -122.29867]
+		},
+		"properties": {
+			"multi_family": true,
+			"property-type": "multi_family",
+			"description": "<strong>Multi-Family</strong><br>",
+			"title": "2711 Northeast 115th Street<br> Seattle, WA 98125<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+            "url": "https://goo.gl/maps/sKoSqgPVoKq8nPN47"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.624923, -122.316403]
+		},
+		"properties": {
+			"multi_family": true,
+			"property-type": "multi_family",
+			"description": "<strong>Multi-Family</strong><br>",
+			"title": "620 12th Avenue East<br> Seattle, WA 98102<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+            "url": "https://goo.gl/maps/CXQayddEq4j4b7LF7"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.639865, -122.36519]
+		},
+		"properties": {
+			"multi_family": true,
+			"property-type": "multi_family",
+			"description": "<strong>Multi-Family</strong><br>",
+			"title": "2403 6th Ave W<br> Seattle, WA 98119<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+            "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+            "url": "https://goo.gl/maps/yRVpiA3LuxrtbH3T6"
+		}
+		}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.671405, -122.325231]
+	},
+	"properties": {
+		"multi_family": true,
+		"property-type": "multi_family",
+		"description": "<strong>Multi-Family</strong><br>",
+		"title": "5818 Latona Avenue Northeast<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+        "url": "https://goo.gl/maps/nwvBkJ3rZzhq486Q9"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.821584 , -122.301419]
+	},
+	"properties": {
+		"office": true,
+		"property-type": "office",
+        "description": "<strong>Office</strong><br>",
+		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036",
+         "marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red.png",
+
+        "url": "https://goo.gl/maps/dUePYscB5BMnE6T76"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.653878 , -122.347657]
+	},
+	"properties": {
+		"multi_family": true,
+		"property-type": "multi_family",
+		"description": "<strong>Multi-Family</strong><br>",
+		"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+        "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.66237 , -122.300133]
+	},
+	"properties": {
+		"multi_family": true,
+		"property-type": "multi_family",
+		"description": "<strong>Multi-Family</strong><br>",
+		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+		"marker-size": "small",
+        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
+		}
+	},{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.653878 , -122.347657]
+		},
+		"properties": {
+			"multi_family": true,
+			"property-type": "multi_family",
+			"description": "<strong>Multi-Family</strong><br>",
+			"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2",
+			"marker-size": "small",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
+	        "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.69953, -122.32568]
+		},
+		"properties": {
+			"property-type": "main_office",
+			"description": "<strong>Umano Offices</strong><br>",
+			"title": "9750 3rd Ave NE #425<br> Seattle, WA 98115",
+			"marker-size": "small",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blackU.png",
+	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
+			}
+		},{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.692830562, -122.333332]
+		},
+		"properties": {
+			"former": true,
+			"property-type": "former",
+			"description": "<strong>Former</strong><br>",
+			"title": "9600 College Way N<br> Seattle, WA  98103<br>Bed: 0<br>Baths: 0<br>Sq.Ft: 0<br>Stories: 0",
+			"marker-size": "small",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_grey-.png",
+	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
+
+		}
+		}]
+}
