@@ -10,7 +10,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "401 31st Ave<br> Seattle, WA 98122<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/1.jpg' alt='one'></a><br></div>",
+			"title": "401 31st Ave<br> Seattle, WA 98122<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/401+31st+Ave,+Seattle,+WA+98122/@47.6053332,-122.2926317,3a,75y,270.26h,90t/data=!3m6!1e1!3m4!1srAGUNotIXOCmxY3XoJBWsw!2e0!7i16384!8i8192!4m5!3m4!1s0x54906adde5cacc5f:0xf22890eb7cbad947!8m2!3d47.6053171!4d-122.2929027'><img width='185' height='155' src='images/1.jpg' alt='one'></a><br></div>",
 			"marker-size": "small",
              "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/hT4CE1bRz2jVKDL59"
@@ -25,7 +25,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "411 NE 94th St<br> Seattle, WA 98115<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/2.jpg' alt='two'></a><br></div>",
+			"title": "411 NE 94th St<br> Seattle, WA 98115<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/411+NE+94th+St/@47.6967921,-122.3242096,3a,75y,171.87h,90t/data=!3m4!1e1!3m2!1scs-STkKk6aJYHqnzAJ16Lw!2e0!4m2!3m1!1s0x549014077196a16d:0x7cbcb3396501d4b?sa=X&ved=2ahUKEwjvg-nO2ufiAhVhh1QKHbD8DR0QxB0wAHoECAoQAg'><img width='185' height='155' src='images/2.jpg' alt='two'></a><br></div>",
 			"marker-size": "small",
 
              "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
@@ -41,7 +41,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "806 217th Place Northeast<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/3.jpg' alt='three'></a><br></div>",
+			"title": "806 217th Place Northeast<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/806+217th+Place+Northeast/@47.6167907,-122.0500239,3a,75y,105.64h,90t/data=!3m4!1e1!3m2!1sTovHrzfBhp71Lk4L9BvlJA!2e0!4m2!3m1!1s0x5490721d3a677803:0xd19e4962c9b809e1?sa=X&ved=2ahUKEwjnh6Te2ufiAhUswMQHHT07APkQxB0wAHoECAoQAg'><img width='185' height='155' src='images/3.jpg' alt='three'></a><br></div>",
 			"marker-size": "small",
              "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/9ETrqhNHyxCZP4J89"
@@ -56,7 +56,7 @@
 		"condo_townhome": true,
 		"property-type": "condo_townhome",
 		"description": "<strong>Condo/Townhome</strong><br>",
-		"title": "1100 106th Avenue Northeast #205<br>Bellevue, WA 98004<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/4.jpg' alt='four'></a><br></div>",
+		"title": "1100 106th Avenue Northeast #205<br>Bellevue, WA 98004<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/1100+106th+Ave+NE,+Bellevue,+WA+98004/@47.6204675,-122.1983655,3a,75y,250.38h,90t/data=!3m6!1e1!3m4!1sk7zQRZ4B4M3H_pvvMQPOoA!2e0!7i16384!8i8192!4m5!3m4!1s0x54906c8e7c98b4ed:0xc2c1aac353d5726d!8m2!3d47.6203603!4d-122.1987406'><img width='185' height='155' src='images/4.jpg' alt='four'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
         "url": "https://goo.gl/maps/1CTTttwP72s1Uipq6"
@@ -71,7 +71,7 @@
 		"single_family": true,
 		"property-type": "single_family",
 		"description": "<strong>Single-Family</strong><br>",
-		"title": "1300 92nd Ave NE<br> Lake Stevens, WA 98258<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/5.jpg' alt='five'></a><br></div>",
+		"title": "1300 92nd Ave NE<br> Lake Stevens, WA 98258<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/1300+92nd+Ave+NE/@47.6216117,-122.2178461,3a,75y,82.16h,90t/data=!3m4!1e1!3m2!1slyeloX5Edp9Z1skTItBL1Q!2e0!4m2!3m1!1s0x54906c9bf6a2a523:0xdc500471fadd50f2?sa=X&ved=2ahUKEwjU7Mj62ufiAhUDL3wKHU9qCzgQxB0wAXoECAoQAg'><img width='185' height='155' src='images/5.jpg' alt='five'></a><br></div>",
 		"marker-size": "small",
          "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
         "url": "https://goo.gl/maps/S4whT1Qev9bmNPxP8"
@@ -86,7 +86,7 @@
 		"multi_family": true,
 		"property-type": "multi_family",
 		"description": "<strong>Multi-Family</strong><br>",
-		"title": "1419 Kirkland Avenue Northeast<br> Renton, WA 98056<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/6.jpg' alt='six'></a><br></div>",
+		"title": "1419 Kirkland Avenue Northeast<br> Renton, WA 98056<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/1419+Kirkland+Ave+NE,+Renton,+WA+98056/@47.5051712,-122.1785835,3a,75y,258.73h,90t/data=!3m6!1e1!3m4!1sbTspStR9ROSjFOwDioJpDQ!2e0!7i16384!8i8192!4m5!3m4!1s0x54906868e3e6c9af:0xabd91ba805fd1eef!8m2!3d47.5051211!4d-122.1788193'><img width='185' height='155' src='images/6.jpg' alt='six'></a><br></div>",
 		"marker-size": "small",
          "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
         "url": "https://goo.gl/maps/AkYef1NupppUgJHf7"
@@ -101,7 +101,7 @@
 		"condo_townhome": true,
 		"property-type": "condo_townhome",
 		"description": "<strong>Condo/Townhome</strong><br>",
-		"title": "1525 NW 57th St #525<br> Seattle, WA 98107<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/7.jpg' alt='seven'></a><br></div>",
+		"title": "1525 NW 57th St #525<br> Seattle, WA 98107<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/1525+NW+57th+St/@47.6701746,-122.3773459,3a,75y,174.44h,90t/data=!3m4!1e1!3m2!1sxujNd5lg197gnZWW5NhkTA!2e0!4m2!3m1!1s0x549015c93991e365:0x6f8d73c9428761a4?sa=X&ved=2ahUKEwiG8qeU2-fiAhXnv1QKHXVRCAEQxB0wAHoECAoQAg'><img width='185' height='155' src='images/7.jpg' alt='seven'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
         "url": "https://goo.gl/maps/wY7w22j28ExLLvT58"
@@ -116,7 +116,7 @@
 		"single_family": true,
 		"property-type": "single_family",
 		"description": "<strong>Single-Family</strong><br>",
-		"title": "1710 103rd St<br> Seattle, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/8.jpg' alt='eight'></a><br></div>",
+		"title": "1710 103rd St<br> Seattle, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/1710+N+103rd+St,+Seattle,+WA+98133/@47.7032352,-122.3370119,3a,75y,4.42h,90t/data=!3m6!1e1!3m4!1sXYnvm8TCcDCc0dWQRbxzwA!2e0!7i16384!8i8192!4m5!3m4!1s0x549016abae4cf3a5:0xca8e5f558267f1f2!8m2!3d47.7034179!4d-122.3369691'><img width='185' height='155' src='images/8.jpg' alt='eight'></a><br></div>",
 		"marker-size": "small",
          "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
         "url": "https://goo.gl/maps/DUSehFpAWFSnHWSg9"
@@ -131,7 +131,7 @@
 		"condo_townhome": true,
 		"property-type": "condo_townhome",
 		"description": "<strong>Condo/Townhome</strong><br>",
-		"title": "2201 3rd Avenue<br> Seattle, WA 98121<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/9.jpg' alt='nine'></a><br></div>",
+		"title": "2201 3rd Avenue<br> Seattle, WA 98121<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/2201+3rd+Ave,+Seattle,+WA+98121/@47.6141351,-122.3438563,3a,75y,213.06h,90t/data=!3m6!1e1!3m4!1sjekSu7KTxoF9xE04u9O0BQ!2e0!7i16384!8i8192!4m5!3m4!1s0x5490154c443e81c3:0x3e0bf5247a781726!8m2!3d47.613898!4d-122.344043'><img width='185' height='155' src='images/9.jpg' alt='nine'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
         "url": "https://goo.gl/maps/m7VijgeXaV2C5c5u8"
@@ -146,7 +146,7 @@
 		"single_family": true,
 		"property-type": "single_family",
 		"description": "<strong>Single-Family</strong><br>",
-		"title": "4120 183rd Place Southeast<br> Bothell, WA 98012<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/10.jpg' alt='ten'></a><br></div>",
+		"title": "4120 183rd Place Southeast<br> Bothell, WA 98012<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/4120+183rd+Place+Southeast/@47.8313361,-122.1767915,3a,75y,173.41h,90t/data=!3m4!1e1!3m2!1srIXYw0PrRca2ju67Iok0Pg!2e0!4m2!3m1!1s0x549008aeeca5b203:0xd3931953ab39e7c5?sa=X&ved=2ahUKEwicqObD2-fiAhUKwFQKHcNSC5oQxB0wAHoECAoQAg'><img width='185' height='155' src='images/10.jpg' alt='ten'></a><br></div>",
 		"marker-size": "small",
          "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
         "url": "https://goo.gl/maps/KvD6VZZUhoH5V4FA8"
@@ -161,7 +161,7 @@
 		"single_family": true,
 		"property-type": "single_family",
 		"description": "<strong>Single-Family</strong><br>",
-		"title": "5037 S Bowen Place<br> Seattle, WA 98118<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/11.jpg' alt='eleven'></a><br></div>",
+		"title": "5037 S Bowen Place<br> Seattle, WA 98118<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/5037+S+Bowen+Place/@47.5559177,-122.277542,3a,75y,275.4h,90t/data=!3m4!1e1!3m2!1sjB8ZLEuxOV-lQHBwfd5pKA!2e0!4m2!3m1!1s0x54906a0fdcdc0d09:0xfe9033cbf0e574ce?sa=X&ved=2ahUKEwjm-P3O2-fiAhVprFQKHZluChYQxB0wAHoECAoQAg'><img width='185' height='155' src='images/11.jpg' alt='eleven'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
         "url": "https://goo.gl/maps/nFSGGTgdG6a6jWM77"
@@ -177,7 +177,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "5603 18th Avenue Southwest<br> Seattle, WA 98106<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/12.jpg' alt='twelve'></a><br></div>",
+			"title": "5603 18th Avenue Southwest<br> Seattle, WA 98106<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/5603+18th+Ave+SW,+Seattle,+WA+98106/@47.5517113,-122.359574,17z/data=!3m1!4b1!4m5!3m4!1s0x549041a8ae937489:0xc41019083f57e6cd!8m2!3d47.5517113!4d-122.3573853'><img width='185' height='155' src='images/12.jpg' alt='twelve'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/MWsg7FMixUsxsxoCA"
@@ -192,7 +192,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "8613 Densmore Ave N<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/13.jpg' alt='thirteen'></a><br></div>",
+			"title": "8613 Densmore Ave N<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><img width='185' height='155' src='images/13.jpg' alt='thirteen'><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/Zg94uLZVmCpnrHRV7"
@@ -207,7 +207,7 @@
 			"condo_townhome": true,
 			"property-type": "condo_townhome",
 			"description": "<strong>Condo/Townhome</strong><br>",
-			"title": "8851 166th Ave NE #A101<br> Bellevue, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/14.jpg' alt='fourteen'></a><br></div>",
+			"title": "8851 166th Ave NE #A101<br> Bellevue, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/8851+166th+Ave+NE,+Redmond,+WA+98052/@47.6814691,-122.1191228,3a,75y,263.13h,90t/data=!3m6!1e1!3m4!1szttWCTZXyNPJnFXE9Aie-w!2e0!7i16384!8i8192!4m5!3m4!1s0x54900d4b3c42117d:0x911b1af698e862ad!8m2!3d47.6814129!4d-122.1196202'><img width='185' height='155' src='images/14.jpg' alt='fourteen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_green.png",
             "url": "https://goo.gl/maps/K7grZaVbLh7yK2n38"
@@ -222,7 +222,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description":"<strong>Single-Family</strong><br>",
-			"title":"9328 63rd Place West<br> Mukilteo, WA 98275<br>Bed: 4 <br>Baths: 3.5<br> Sq.Ft: 3420<br> Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/15.jpg' alt='fifteen'></a><br></div>",
+			"title":"9328 63rd Place West<br> Mukilteo, WA 98275<br>Bed: 4 <br>Baths: 3.5<br> Sq.Ft: 3420<br> Stories: 2 <div><br><a href='https://www.google.com/maps/place/9328+63rd+Pl+W,+Mukilteo,+WA+98275/@47.8356551,-122.3177899,3a,75y,90t/data=!3m6!1e1!3m4!1s*211m3*211y6093375934411294185*212y10679409057153470879*213m0*212m2*211x478356835*212x3071789845*213m2*211y6093399659782646597*212y8322149157681526276*215m2*211x478356835*212x3071789845!2e0!7i16384!8i8192!4m5!3m4!1s0x549003c5c2f1c04b:0xd64419dd2465aaf6!8m2!3d47.9130919!4d-122.3199251'><img width='185' height='155' src='images/15.jpg' alt='fifteen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/JWcEVH291cdms31f6"
@@ -237,7 +237,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "12834 176th Place Northeast<br> Redmond, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/16.jpg' alt='sixteen'></a><br></div>",
+			"title": "12834 176th Place Northeast<br> Redmond, WA 98052<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/12834+176th+Pl+NE,+Redmond,+WA+98052/@47.715588,-122.1042299,3a,75y,106.78h,90t/data=!3m6!1e1!3m4!1sAUM9el-gWEo42kOojEG8KA!2e0!7i16384!8i8192!4m5!3m4!1s0x54900ce5a92df6e7:0xed7456fddd5f99b6!8m2!3d47.7154677!4d-122.1036075'><img width='185' height='155' src='images/16.jpg' alt='sixteen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/H2w7ivDwuVQRgbs19"
@@ -252,7 +252,7 @@
 			"retail": true,
 			"property-type": "retail",
 			"description": "<strong>Retail</strong> <br>",
-			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/17.jpg' alt='seventeen'></a><br></div>",
+			"title": "13311 NE 175th St<br> Woodinville, WA 98072<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/13311+NE+175th+St/@47.7544724,-122.1615044,3a,75y,175.56h,90t/data=!3m4!1e1!3m2!1sclLNIsWQJbxc6pXfoG8NZg!2e0!4m2!3m1!1s0x54900c2a68b6c97b:0x91f1f66e25f1ab8c?sa=X&ved=2ahUKEwjNg9rl3OfiAhWIDHwKHc8CA68QxB0wAHoECAoQAg'><img width='185' height='155' src='images/17.jpg' alt='seventeen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_purple.png",
             "url": "https://goo.gl/maps/jwFCW6Rzr7LSm2tA8"
@@ -267,7 +267,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong> Single-Family</strong><br>",
-			"title": "17536 Fremont Ave N<br> Shoreline, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/18.jpg' alt='eighteen'></a><br></div>",
+			"title": "17536 Fremont Ave N<br> Shoreline, WA 98133<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/17536+Fremont+Ave+N/@47.7569061,-122.3510749,3a,75y,88.28h,90t/data=!3m4!1e1!3m2!1sENu2p_NPf1R4ilvJ0sX87Q!2e0!4m2!3m1!1s0x549010ec0569cd5f:0x4b61bc327448ac3b?sa=X&ved=2ahUKEwj-vp7z3OfiAhUNBHwKHTwIAiwQxB0wAHoECAoQAg'><img width='185' height='155' src='images/18.jpg' alt='eighteen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/hzjEfLRHNvNnnCHE6"
@@ -282,7 +282,7 @@
 			"single_family": true,
 			"property-type": "single_family",
 			"description": "<strong>Single-Family</strong><br>",
-			"title": "20823 Northeast Inglewood Hill Road<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/19.jpg' alt='nineteen'></a><br></div>",
+			"title": "20823 Northeast Inglewood Hill Road<br> Sammamish, WA 98074<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/20823+Northeast+Inglewood+Hill+Road/@47.6200708,-122.0611723,3a,75y,205.51h,90t/data=!3m4!1e1!3m2!1sOXA6lUdEQY8-eE7JSNDlHw!2e0!4m2!3m1!1s0x54907205b4392f9d:0xe215fc236140a6a5?sa=X&ved=2ahUKEwjPpKuB3efiAhWJw1QKHT3YBi8QxB0wAHoECAoQAg'><img width='185' height='155' src='images/19.jpg' alt='nineteen'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blue.png",
             "url": "https://goo.gl/maps/BffwGhhG8pBrcyaa9"
@@ -297,7 +297,7 @@
 			"multi_family": true,
 			"property-type": "multi_family",
 			"description": "<strong>Multi-Family</strong><br>",
-			"title": "2711 Northeast 115th Street<br> Seattle, WA 98125<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/20.jpg' alt='twenty'></a><br></div>",
+			"title": "2711 Northeast 115th Street<br> Seattle, WA 98125<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/2711+Northeast+115th+Street/@47.7114264,-122.2992053,3a,75y,30.42h,90t/data=!3m4!1e1!3m2!1sSeuu_e6dfx19ZgLVH4R3hQ!2e0!4m2!3m1!1s0x549013df8270b98d:0xef31f152352e8c77?sa=X&ved=2ahUKEwjN-92O3efiAhUNGnwKHTKDCqEQxB0wAHoECAoQAg'><img width='185' height='155' src='images/20.jpg' alt='twenty'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
             "url": "https://goo.gl/maps/sKoSqgPVoKq8nPN47"
@@ -312,7 +312,7 @@
 			"multi_family": true,
 			"property-type": "multi_family",
 			"description": "<strong>Multi-Family</strong><br>",
-			"title": "620 12th Avenue East<br> Seattle, WA 98102<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/21.jpg' alt='tweone'></a><br></div>",
+			"title": "620 12th Avenue East<br> Seattle, WA 98102<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/620+12th+Avenue+East/@47.6249623,-122.3167224,3a,75y,100.27h,90t/data=!3m4!1e1!3m2!1sADstmlrTMpkCCCha62DCGw!2e0!4m2!3m1!1s0x54901529523291e3:0x12096c108d8182e9?sa=X&ved=2ahUKEwiQlK6c3efiAhWJ3lQKHSraAIkQxB0wAHoECAoQAg'><img width='185' height='155' src='images/21.jpg' alt='tweone'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
             "url": "https://goo.gl/maps/CXQayddEq4j4b7LF7"
@@ -327,7 +327,7 @@
 			"multi_family": true,
 			"property-type": "multi_family",
 			"description": "<strong>Multi-Family</strong><br>",
-			"title": "2403 6th Ave W<br> Seattle, WA 98119<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/22.jpg' alt='twetwo'></a><br></div>",
+			"title": "2403 6th Ave W<br> Seattle, WA 98119<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/2403+6th+Ave+W/@47.6398117,-122.3649271,3a,75y,286.69h,90t/data=!3m4!1e1!3m2!1sUCilT2VV5y2BiTzDDYcXYQ!2e0!4m2!3m1!1s0x549015732e1b5019:0xf5319b8533b82cdf?sa=X&ved=2ahUKEwi30bqp3efiAhWOEnwKHfVpBl4QxB0wAHoECAoQAg'><img width='185' height='155' src='images/22.jpg' alt='twetwo'></a><br></div>",
 			"marker-size": "small",
             "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
             "url": "https://goo.gl/maps/yRVpiA3LuxrtbH3T6"
@@ -342,7 +342,7 @@
 		"multi_family": true,
 		"property-type": "multi_family",
 		"description": "<strong>Multi-Family</strong><br>",
-		"title": "5818 Latona Avenue Northeast<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/23.jpg' alt='twethree'></a><br></div>",
+		"title": "5818 Latona Avenue Northeast<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/5818+Latona+Ave+NE,+Seattle,+WA+98105/@47.671369,-122.3255086,3a,75y,81.43h,90t/data=!3m6!1e1!3m4!1szD90Q2_at9k0sfl5S4HbJg!2e0!7i16384!8i8192!4m5!3m4!1s0x5490146870e7fb83:0x669ac47571fcf101!8m2!3d47.6714045!4d-122.3252312'><img width='185' height='155' src='images/23.jpg' alt='twethree'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
         "url": "https://goo.gl/maps/nwvBkJ3rZzhq486Q9"
@@ -357,7 +357,7 @@
 		"office": true,
 		"property-type": "office",
         "description": "<strong>Office</strong><br>",
-		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/24.jpg' alt='twefour'></a><br></div>",
+		"title":"5017 196th Street Southwest<br> Lynnwood, WA 98036 <div><br><a href='https://www.google.com/maps/place/5017+196th+St+SW,+Lynnwood,+WA+98036/data=!4m2!3m1!1s0x54900538a8985307:0xf37b7f75771fc9dd?sa=X&ved=2ahUKEwjmnunO3efiAhXnjVQKHf8UAesQ8gEwAHoECAoQAQ'><img width='185' height='155' src='images/24.jpg' alt='twefour'></a><br></div>",
          "marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red.png",
 
@@ -373,7 +373,7 @@
 		"multi_family": true,
 		"property-type": "multi_family",
 		"description": "<strong>Multi-Family</strong><br>",
-		"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/25.jpg' alt='twefive'></a><br></div>",
+		"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/3837+Aurora+Ave+N,+Seattle,+WA+98103/@47.6538817,-122.3474159,3a,75y,268.21h,90t/data=!3m6!1e1!3m4!1sTOBXIeR37fWL45pW7gWX-g!2e0!7i16384!8i8192!4m5!3m4!1s0x549015aa919f137f:0x9b17149811ead40b!8m2!3d47.6538777!4d-122.3476567'><img width='185' height='155' src='images/25.jpg' alt='twefive'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
         "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
@@ -388,7 +388,7 @@
 		"multi_family": true,
 		"property-type": "multi_family",
 		"description": "<strong>Multi-Family</strong><br>",
-		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/26.jpg' alt='twesix'></a><br></div>",
+		"title": "4616 25th Ave NE #133<br> Seattle, WA 98105<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/4616+25th+Ave+NE,+Seattle,+WA+98105/@47.6623768,-122.2998626,3a,75y,274.7h,90t/data=!3m6!1e1!3m4!1sbOKjUqLs1dCYoli3jZcYmA!2e0!7i16384!8i8192!4m5!3m4!1s0x54901488ca9fbb31:0x20123d7a7d18a634!8m2!3d47.6623703!4d-122.3001332'><img width='185' height='155' src='images/26.jpg' alt='twesix'></a><br></div>",
 		"marker-size": "small",
         "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
         "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
@@ -403,7 +403,7 @@
 			"multi_family": true,
 			"property-type": "multi_family",
 			"description": "<strong>Multi-Family</strong><br>",
-			"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/27.jpg' alt='tweseven'></a><br></div>",
+			"title": "3837 Aurora Avenue North<br> Seattle, WA 98103<br>Bed: 4<br>Baths: 3.5<br>Sq.Ft: 3420<br>Stories: 2 <div><br><a href='https://www.google.com/maps/place/3837+Aurora+Avenue+North/@47.6538835,-122.3473821,3a,75y,268.21h,90t/data=!3m4!1e1!3m2!1sTOBXIeR37fWL45pW7gWX-g!2e0!4m2!3m1!1s0x549015aa919f137f:0x9b17149811ead40b?sa=X&ved=2ahUKEwi437Dg3efiAhXCqFQKHRS3C7IQxB0wAHoECAoQAg&cshid=1560472789774960'><img width='185' height='155' src='images/27.jpg' alt='tweseven'></a><br></div>",
 			"marker-size": "small",
 	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_orange.png",
 	        "url": "https://goo.gl/maps/LtZVEtZQcSvMbDrE9"
@@ -417,9 +417,9 @@
 		"properties": {
 			"property-type": "main_office",
 			"description": "<strong>Umano Offices</strong><br>",
-			"title": "9750 3rd Ave NE #425<br> Seattle, WA 98115",
+			"title": "9750 3rd Ave NE #425<br> Seattle, WA 98115 <div><br><a href='https://www.google.com/maps/place/Northgate+Office+Building,+9750+3rd+Ave+NE,+Seattle,+WA+98115/@47.7005599,-122.3258596,3a,75y,91.01h,90t/data=!3m6!1e1!3m4!1sgjwaTVRGfSuVV-_XFo_3Cw!2e0!7i16384!8i8192!4m5!3m4!1s0x549013ff0d9cea99:0xbf0ca5bf2c70ce77!8m2!3d47.7005705!4d-122.3249883'><img width='185' height='155' src='images/28.jpg' alt='tweseven'></a><br></div>",
 			"marker-size": "small",
-	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blackU.png <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/28.jpg' alt='tweseven'></a><br></div>",
+	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_blackU.png",
 	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
 			}
 		},{
@@ -432,7 +432,7 @@
 			"former": true,
 			"property-type": "former",
 			"description": "<strong>Former</strong><br>",
-			"title": "9600 College Way N<br> Seattle, WA  98103<br>Bed: 0<br>Baths: 0<br>Sq.Ft: 0<br>Stories: 0 <div><br><a href='https://www.umanopm.com/'><img width='185' height='155' src='images/29.jpg' alt='twenine'></a><br></div>",
+			"title": "9600 College Way N<br> Seattle, WA  98103<br>Bed: 0<br>Baths: 0<br>Sq.Ft: 0<br>Stories: 0 <div><br><a href='https://www.google.com/maps/place/9600+College+Way+N/@47.6986884,-122.334996,3a,75y,82.55h,90t/data=!3m4!1e1!3m2!1sPIgxv2vcSFDnkv2MSKZM3w!2e0!4m2!3m1!1s0x54901401b78595fb:0x5db527296ff10c30?sa=X&ved=2ahUKEwjN0vjg3ufiAhVGzlQKHbufAYsQxB0wAHoECAoQAg'><img width='185' height='155' src='images/29.jpg' alt='twenine'></a><br></div>",
 			"marker-size": "small",
 	        "marker-color": "https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_grey-.png",
 	        "url": "https://goo.gl/maps/yu1TpzbYNedDDPwg7"
